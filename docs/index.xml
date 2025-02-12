@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Dr. Lennart Wittkuhn</title>
+<link>https://lennartwittkuhn.com/docs/</link>
+<atom:link href="https://lennartwittkuhn.com/docs/index.xml" rel="self" type="application/rss+xml"/>
+<description>Dr. Lennart Wittkuhn - Research Data Scientist in Cognitive Neurosciece at University of Hamburg and Trainer for Digital Research Skills</description>
+<generator>quarto-1.5.55</generator>
+<lastBuildDate>Wed, 12 Feb 2025 09:39:00 GMT</lastBuildDate>
+<item>
+  <title>Datalad x UHH Object Storage</title>
+  <link>https://lennartwittkuhn.com/docs/resources/uhh-object-storage.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-about-solana column-body">
+  <div class="about-entity">
+    <div class="entity-contents">
+       <div class="about-links">
+  <a href="https://www.rrz.uni-hamburg.de/en/services/datenhaltung/objektspeicher.html" class="about-link" rel="" target="">
+    <i class="bi bi-link"></i>
+     <span class="about-link-text">Object Storage website</span>
+  </a>
+</div>
+      <div class="about-contents"><div id="hero-heading">
+</div></div>
+    </div>
+  </div>
+</div>
+
+<section id="about" class="level2">
+<h2 data-anchor-id="about">About</h2>
+<ul>
+<li><span class="emoji" data-emoji="question">❓</span> <strong>What:</strong> An <a href="https://en.wikipedia.org/wiki/Object_storage">Object Storage</a>. Like <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html">Amazon S3</a> but by <a href="https://cloudian.com/products/hyperstore/">Cloudian</a>.</li>
+<li><span class="emoji" data-emoji="bulb">💡</span> <strong>Purpose:</strong> For example, configure the object storage as a <a href="https://handbook.datalad.org/en/latest/basics/101-139-s3.html#initialize-the-s3-special-remote">DataLad special remote</a></li>
+<li><span class="emoji" data-emoji="key">🔑</span> <strong>Access:</strong> Send an <a href="mailto:rrz-serviceline@uni-hamburg.de">email to the RRZ-ServiceLine</a></li>
+<li><i class="fa-brands fa-git-alt" aria-label="git-alt"></i> DataLad Handbook: <a href="https://handbook.datalad.org/en/latest/basics/101-139-s3.html">“Walk-through: Amazon S3 as a special remote”</a></li>
+<li><span class="emoji" data-emoji="books">📚</span> <strong>LZS documentation documents</strong>
+<ul>
+<li><a href="https://keeper.mpdl.mpg.de/f/b05b0e7274ac44bc83b7/">“LZS - First Steps”</a> (in German <span class="emoji" data-emoji="de">🇩🇪</span>)</li>
+<li><a href="https://keeper.mpdl.mpg.de/f/2918c53ca7c14dd69a38/">“LZS S3 Identity And Access Management”</a> (in German <span class="emoji" data-emoji="de">🇩🇪</span>)</li>
+<li><a href="https://keeper.mpdl.mpg.de/f/f17c83d3d81642c2ad18/">“Cloudian AWS CLI Guide”</a> (in English <span class="emoji" data-emoji="us">🇺🇸</span>)</li>
+</ul></li>
+</ul>
+</section>
+<section id="uhh-object-storage-as-a-datalad-special-remote" class="level2">
+<h2 data-anchor-id="uhh-object-storage-as-a-datalad-special-remote">UHH Object Storage as a DataLad special remote</h2>
+<p>This section describes how to use the UHH Object Storage as a DataLad special remote.</p>
+<div class="callout callout-style-default callout-warning callout-titled" title="Instructions may be incomplete!">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Instructions may be incomplete!
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The instructions below so far only document deviations from the DataLad Handbook <a href="https://handbook.datalad.org/en/latest/basics/101-139-s3.html">walk-through “Amazon S3 as a special remote”</a></p>
+</div>
+</div>
+<ol type="1">
+<li>Follow the <a href="https://handbook.datalad.org/en/latest/basics/101-139-s3.html">walk-through “Amazon S3 as a special remote”</a> in the DataLad Handbook</li>
+<li>Use the following command when <a href="https://handbook.datalad.org/en/latest/basics/101-139-s3.html#initialize-the-s3-special-remote">initializing the S3 special remote</a>:</li>
+</ol>
+<div class="cell">
+<details open="" class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> annex initremote public-s3 type=S3 encryption=none <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">\</span></span>
+<span id="cb1-2">bucket=<span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">$BUCKET</span> public=yes datacenter=EU <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">\</span></span>
+<span id="cb1-3">host=s3-uhh.lzs.uni-hamburg.de protocol=https port=443 autoenable=true</span></code></pre></div>
+</details>
+</div>
+<ol start="3" type="1">
+<li>Use the following command when <a href="https://handbook.datalad.org/en/latest/basics/101-139-s3.html#initialize-the-s3-special-remote">auto-enabling the S3 special remote</a>:</li>
+</ol>
+<div class="cell">
+<details open="" class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> annex enableremote public-s3 <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">\</span></span>
+<span id="cb2-2">publicurl=<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"https://</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">$BUCKET</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">.s3-uhh.lzs.uni-hamburg.de"</span></span></code></pre></div>
+</details>
+</div>
+<section id="links" class="level3">
+<h3 data-anchor-id="links"><span class="emoji" data-emoji="link">🔗</span> Links</h3>
+<ul>
+<li>https://git-annex.branchable.com/special_remotes/S3/</li>
+<li>https://git-annex.branchable.com/tips/public_Amazon_S3_remote/</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="Details about the object- / long-term storage (LZS)">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Details about the object- / long-term storage (LZS)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>Text copied from the <a href="https://www.rrz.uni-hamburg.de/en/services/datenhaltung/objektspeicher.html">LZS documentation</a> on 10th of January (highlights added):</em></p>
+<blockquote class="blockquote">
+<p>The RRZ operates a highly scalable object storage under the name Object / Long Term Storage (LZS). It complements the file service&nbsp;<a href="https://www.rrz.uni-hamburg.de/services/datenhaltung/uhhdisk.html">UHHDisk</a> and the Central Storage Infrastructure&nbsp;<a href="https://www.rrz.uni-hamburg.de/services/datenhaltung/zsi.html">ZSI</a> to meet the constantly growing demand for storage space for data from science and research.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>The LZS is suitable for, among others, the following purposes:</p>
+</blockquote>
+<ul>
+<li>Backend for file services</li>
+<li>Backend for archiving solutions</li>
+<li>Backend for research data management or CMS</li>
+<li>Backend for the delivery of multimedia files</li>
+<li>Storage of measurement data or results from simulation calculations</li>
+<li>Storage of larger collections of photos, films or digitized books</li>
+<li>On-premise cloud storage for scientific collaborations as a secure and affordable alternative to Amazon Simple Storage Service (S3)</li>
+</ul>
+<blockquote class="blockquote">
+<p>The <strong>target group</strong> of the LZS are systems that speak S3 natively and have to store larger amounts of data at a low rate of data change. With <a href="https://www.rrz.uni-hamburg.de/services/datenhaltung/uhhdisk.html">UHHDisk</a>, the RRZ offers a suitable platform for storing files, e.g.&nbsp;for home drives or project directories.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Due to the system architecture and configuration, the LZS is <strong>not suitable for use in structured data (backend for databases) or virtualization environments</strong>. For this the RRZ offers a suitable service with the central storage infrastructure (<a href="https://www.rrz.uni-hamburg.de/services/datenhaltung/zsi.html">ZSI</a>).</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>For further questions about the S3 object and long-term storage, please send an <a href="mailto:rrz-serviceline@uni-hamburg.de">e-mail to the RRZ-ServiceLine</a>.</p>
+</blockquote>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled" title="Technical details of the LSZ">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Technical details of the LSZ
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Object Storage System: <a href="https://cloudian.com/products/hyperstore/">Cloudian HyperStore Object Storage</a></li>
+<li>Cloudian guarantees 99% compatibility to Amazon S3</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>Object Storage</category>
+  <category>DataLad</category>
+  <category>Research Data Management</category>
+  <guid>https://lennartwittkuhn.com/docs/resources/uhh-object-storage.html</guid>
+  <pubDate>Wed, 12 Feb 2025 09:39:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
