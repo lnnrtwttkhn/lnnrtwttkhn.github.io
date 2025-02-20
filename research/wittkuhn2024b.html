@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.55">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -57,10 +57,10 @@ div.csl-indent {
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dece3bd051e391dd7205a6b15f93dc59.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-80923bf51d4407159db0730ee986d3f4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
@@ -444,7 +444,7 @@ Wittkuhn, L., Krippner, L. M., Koch, C., &amp; Schuck, N. W. (2024). Replay in h
 <h2 data-anchor-id="related-work">Related work</h2>
 <div id="listing-related-work" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-categories="replay,statistical learning,successor representation,fMRI,machine learning,Talk" data-listing-date-sort="1717027200000" data-listing-file-modified-sort="1720988260000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5" data-listing-title-sort="Implicit learning of successor representations is related to backward replay in visual cortex">
+<div class="quarto-post image-left" data-index="0" data-categories="cmVwbGF5JTJDc3RhdGlzdGljYWwlMjBsZWFybmluZyUyQ3N1Y2Nlc3NvciUyMHJlcHJlc2VudGF0aW9uJTJDZk1SSSUyQ21hY2hpbmUlMjBsZWFybmluZyUyQ1RhbGs=" data-listing-date-sort="1717027200000" data-listing-file-modified-sort="1740075125000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5" data-listing-title-sort="Implicit learning of successor representations is related to backward replay in visual cortex">
 <div class="thumbnail">
 <p><a href="../talks/2024-05-30-talk-wittkuhn2024b-pug.html" class="no-external"></a></p><a href="../talks/2024-05-30-talk-wittkuhn2024b-pug.html" class="no-external">
 <p><img loading="lazy" src="../static/pug-2024-logo.png" class="thumbnail-image"></p>
@@ -458,22 +458,22 @@ Wittkuhn, L., Krippner, L. M., Koch, C., &amp; Schuck, N. W. (2024). Replay in h
 <a href="../talks/2024-05-30-talk-wittkuhn2024b-pug.html" class="no-external">“Psychology and Brain / Psychologie und Gehirn (PuG)” 2024 conference in Hamburg, Germany</a>
 </div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('replay'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('cmVwbGF5'); return false;">
 replay
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('statistical learning'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('c3RhdGlzdGljYWwlMjBsZWFybmluZw=='); return false;">
 statistical learning
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('successor representation'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('c3VjY2Vzc29yJTIwcmVwcmVzZW50YXRpb24='); return false;">
 successor representation
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('fMRI'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('Zk1SSQ=='); return false;">
 fMRI
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('machine learning'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('bWFjaGluZSUyMGxlYXJuaW5n'); return false;">
 machine learning
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('Talk'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('VGFsaw=='); return false;">
 Talk
 </div>
 </div>
@@ -577,8 +577,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -694,7 +692,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
@@ -966,7 +963,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>Version <a href="https://github.com/lnnrtwttkhn/lnnrtwttkhn.github.io/tree/12a87d2">12a87d2</a> | Updated 2025-02-12</p>
+<p>Version <a href="https://github.com/lnnrtwttkhn/lnnrtwttkhn.github.io/tree/"></a> | Updated 2025-02-20</p>
 </div>
     <div class="nav-footer-right">
       &nbsp;
