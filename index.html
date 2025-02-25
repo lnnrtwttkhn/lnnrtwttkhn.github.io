@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dece3bd051e391dd7205a6b15f93dc59.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-80923bf51d4407159db0730ee986d3f4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-07b30f89a79ed2341c693c946ea49a7f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
@@ -116,6 +116,35 @@ ul.task-list li input[type="checkbox"] {
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-education'] = new List('listing-education', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-news .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-info',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      page: 30,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-news'] = new List('listing-news', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -311,11 +340,58 @@ Photo was taken by Henri Roettger at University of Hamburg.
 <p>I am also passionate about <strong>computational reproducibility</strong>, <strong>research data management</strong>, <strong>open science</strong> and tools that improve the scientific workflow.</p>
 <p>Find out <a href="./news/index.html">what’s new</a> and discover more about my <a href="./research/index.html">research</a>, <a href="./talks/index.html">talks</a> and other <a href="./wip.html">work in progress</a>.</p>
 </section>
+<section id="latest-news" class="level2">
+<h2 data-anchor-id="latest-news">Latest news</h2>
+<p>For more news, visit <a href="./news/index.html">the news section</a>.</p>
+<div id="listing-news" class="quarto-listing quarto-listing-container-table">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+When?
+</th>
+<th>
+What?
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="RGF0YUxhZCUyQ1Jlc2VhcmNoJTIwRGF0YSUyME1hbmFnZW1lbnQlMkNSZXByb2R1Y2liaWxpdHklMkNWZXJzaW9uJTIwQ29udHJvbCUyQ0dpdCUyQ09wZW4lMjBTY2llbmNlJTJDVGFsaw==" data-listing-date-sort="Wed Feb 26 2025 00:00:00 GMT+0000 (Coordinated Universal Time)" data-listing-file-modified-sort="1740514808000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="12">
+<td>
+<a href="./talks/2025-02-26-talk-uma-rdm-2025.html" class="date listing-date">Feb 2025</a>
+</td>
+<td>
+<span class="listing-info"><strong>New talk:</strong> I gave a talk about “Reproducible Research Data Management with DataLad” at the Mannheim Open Science Meetup of the University of Mannheim, Germany. </span>
+</td>
+</tr>
+<tr data-index="1" data-categories="VmVyc2lvbiUyMENvbnRyb2wlMkNDb2xsYWJvcmF0aW9uJTJDR2l0JTJDUXVhcnRvJTJDVGVhY2hpbmclMkNHcmFudCUyQ0F3YXJk" data-listing-date-sort="Fri Feb 21 2025 00:00:00 GMT+0000 (Coordinated Universal Time)" data-listing-file-modified-sort="1740514808000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="377">
+<td>
+<a href="./grants/2025-02-21-teaching-award-psychology.html" class="date listing-date">Feb 2025</a>
+</td>
+<td>
+<span class="listing-info"><strong>New award:</strong> I received the Teaching Award Psychology 2024 for my course “Track organize and share your work: An introduction to Git for research”. </span>
+</td>
+</tr>
+<tr data-index="2" data-categories="VmVyc2lvbiUyMENvbnRyb2wlMkNHaXQlMkNSZXByb2R1Y2liaWxpdHklMkNPcGVuJTIwU2NpZW5jZSUyQ0RhdGFsYWQlMkNUZWFjaGluZyUyQ0NvdXJzZQ==" data-listing-date-sort="Fri Jan 31 2025 00:00:00 GMT+0000 (Coordinated Universal Time)" data-listing-file-modified-sort="1740514808000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="498">
+<td>
+<a href="./training/2025-01-31-training-version-control-uhh.html" class="date listing-date">Jan 2025</a>
+</td>
+<td>
+<span class="listing-info"><strong>New course:</strong> We completed our full-semester course “An introduction to Git for psychological research” at University of Hamburg and Erasmus University Rotterdam! In this international teaching project, 27 PhD &amp; MSc Psychology students from two universities learned how to track, organize and share their work using Git. </span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
 <section id="experience" class="level2">
 <h2 data-anchor-id="experience">Experience</h2>
 <div id="listing-experience" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-categories="TmV1cm9zY2llbmNlJTJDTVJJJTJDUmVzZWFyY2glMkNNYWNoaW5lJTIwTGVhcm5pbmc=" data-listing-file-modified-sort="1740513829000" data-listing-reading-time-sort="1" data-listing-word-count-sort="5" data-listing-title-sort="Postdoctoral Research Scientist">
+<div class="quarto-post image-left" data-index="0" data-categories="TmV1cm9zY2llbmNlJTJDTVJJJTJDUmVzZWFyY2glMkNNYWNoaW5lJTIwTGVhcm5pbmc=" data-listing-file-modified-sort="1740514808000" data-listing-reading-time-sort="1" data-listing-word-count-sort="5" data-listing-title-sort="Postdoctoral Research Scientist">
 <div class="thumbnail">
 <p><a href="./experience/job-uhh-postdoctoral-researcher.html" class="no-external"></a></p><a href="./experience/job-uhh-postdoctoral-researcher.html" class="no-external">
 <p><img loading="lazy" src="./static/uhh-logo.png" class="thumbnail-image"></p>
@@ -351,7 +427,7 @@ Machine Learning
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="1" data-categories="TmV1cm9zY2llbmNlJTJDTVJJJTJDUmVzZWFyY2glMkNNYWNoaW5lJTIwTGVhcm5pbmc=" data-listing-file-modified-sort="1740513829000" data-listing-reading-time-sort="1" data-listing-word-count-sort="5" data-listing-title-sort="Postdoctoral Research Scientist">
+<div class="quarto-post image-left" data-index="1" data-categories="TmV1cm9zY2llbmNlJTJDTVJJJTJDUmVzZWFyY2glMkNNYWNoaW5lJTIwTGVhcm5pbmc=" data-listing-file-modified-sort="1740514808000" data-listing-reading-time-sort="1" data-listing-word-count-sort="5" data-listing-title-sort="Postdoctoral Research Scientist">
 <div class="thumbnail">
 <p><a href="./experience/job-mpib-postdoctoral-researcer.html" class="no-external"></a></p><a href="./experience/job-mpib-postdoctoral-researcer.html" class="no-external">
 <p><img loading="lazy" src="./static/mpib-logo.png" class="thumbnail-image"></p>
@@ -387,7 +463,7 @@ Machine Learning
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="2" data-categories="TmV1cm9zY2llbmNlJTJDTVJJJTJDUmVzZWFyY2glMkNNYWNoaW5lJTIwTGVhcm5pbmc=" data-listing-file-modified-sort="1740513829000" data-listing-reading-time-sort="1" data-listing-word-count-sort="5" data-listing-title-sort="Doctoral Researcher">
+<div class="quarto-post image-left" data-index="2" data-categories="TmV1cm9zY2llbmNlJTJDTVJJJTJDUmVzZWFyY2glMkNNYWNoaW5lJTIwTGVhcm5pbmc=" data-listing-file-modified-sort="1740514808000" data-listing-reading-time-sort="1" data-listing-word-count-sort="5" data-listing-title-sort="Doctoral Researcher">
 <div class="thumbnail">
 <p><a href="./experience/job-mpib-doctoral-researcher.html" class="no-external"></a></p><a href="./experience/job-mpib-doctoral-researcher.html" class="no-external">
 <p><img loading="lazy" src="./static/mps-ucl-logo.png" class="thumbnail-image"></p>
@@ -433,7 +509,7 @@ No matching items
 <h2 data-anchor-id="education">Education</h2>
 <div id="listing-education" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-categories="Q29nbml0aXZlJTIwTmV1cm9zY2llbmNlJTJDUHN5Y2hvbG9neQ==" data-listing-file-modified-sort="1740513829000" data-listing-reading-time-sort="1" data-listing-word-count-sort="5" data-listing-title-sort="PhD Cognitive Neuroscience">
+<div class="quarto-post image-left" data-index="0" data-categories="Q29nbml0aXZlJTIwTmV1cm9zY2llbmNlJTJDUHN5Y2hvbG9neQ==" data-listing-file-modified-sort="1740514808000" data-listing-reading-time-sort="1" data-listing-word-count-sort="5" data-listing-title-sort="PhD Cognitive Neuroscience">
 <div class="thumbnail">
 <p><a href="./education/edu-fub-phd-psych.html" class="no-external"></a></p><a href="./education/edu-fub-phd-psych.html" class="no-external">
 <p><img loading="lazy" src="./static/fub-logo.svg" class="thumbnail-image"></p>
@@ -463,7 +539,7 @@ Psychology
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="1" data-categories="Q29nbml0aXZlJTIwTmV1cm9zY2llbmNlJTJDUHN5Y2hvbG9neQ==" data-listing-file-modified-sort="1740513829000" data-listing-reading-time-sort="1" data-listing-word-count-sort="5" data-listing-title-sort="MSc Cognitive-Affective Neuroscience">
+<div class="quarto-post image-left" data-index="1" data-categories="Q29nbml0aXZlJTIwTmV1cm9zY2llbmNlJTJDUHN5Y2hvbG9neQ==" data-listing-file-modified-sort="1740514808000" data-listing-reading-time-sort="1" data-listing-word-count-sort="5" data-listing-title-sort="MSc Cognitive-Affective Neuroscience">
 <div class="thumbnail">
 <p><a href="./education/edu-tud-msc-can.html" class="no-external"></a></p><a href="./education/edu-tud-msc-can.html" class="no-external">
 <p><img loading="lazy" src="./static/tud-logo.svg" class="thumbnail-image"></p>
@@ -493,7 +569,7 @@ Psychology
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="2" data-categories="UHN5Y2hvbG9neQ==" data-listing-file-modified-sort="1740513829000" data-listing-reading-time-sort="1" data-listing-word-count-sort="5" data-listing-title-sort="BSc Psychology">
+<div class="quarto-post image-left" data-index="2" data-categories="UHN5Y2hvbG9neQ==" data-listing-file-modified-sort="1740514808000" data-listing-reading-time-sort="1" data-listing-word-count-sort="5" data-listing-title-sort="BSc Psychology">
 <div class="thumbnail">
 <p><a href="./education/edu-tud-bsc-psych.html" class="no-external"></a></p><a href="./education/edu-tud-bsc-psych.html" class="no-external">
 <p><img loading="lazy" src="./static/tud-logo.svg" class="thumbnail-image"></p>
@@ -999,7 +1075,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>Version <a href="https://github.com/lnnrtwttkhn/lnnrtwttkhn.github.io-quarto/tree/bd6a0d7">bd6a0d7</a> | Updated 2025-02-25</p>
+<p>Version <a href="https://github.com/lnnrtwttkhn/lnnrtwttkhn.github.io-quarto/tree/a19b32a">a19b32a</a> | Updated 2025-02-25</p>
 </div>
     <div class="nav-footer-right">
       &nbsp;
