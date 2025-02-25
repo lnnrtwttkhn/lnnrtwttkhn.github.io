@@ -16,6 +16,7 @@
       "/training/2023-12-01-training-quarto-uhh.html",
       "/training/2023-10-20-training-version-control-uhh.html",
       "/training/2020-11-18-training-datalad-mpib.html",
+      "/talks/2025-02-26-talk-uma-rdm-2025.html",
       "/talks/2024-11-28-talk-uhh-rdm-2024.html",
       "/talks/2024-11-14-talk-ddlitlab-interview.html",
       "/talks/2024-11-05-talk-castellum-uhh-mpib.html",
@@ -111,6 +112,7 @@
   {
     "listing": "/talks/index.html",
     "items": [
+      "/talks/2025-02-26-talk-uma-rdm-2025.html",
       "/talks/2024-11-28-talk-uhh-rdm-2024.html",
       "/talks/2024-11-14-talk-ddlitlab-interview.html",
       "/talks/2024-11-05-talk-castellum-uhh-mpib.html",
@@ -167,6 +169,7 @@
   {
     "listing": "/news/index.html",
     "items": [
+      "/talks/2025-02-26-talk-uma-rdm-2025.html",
       "/grants/2025-02-21-teaching-award-psychology.html",
       "/training/2025-01-31-training-version-control-uhh.html",
       "/training/2025-01-15-training-version-control-zi-mannheim.html",
