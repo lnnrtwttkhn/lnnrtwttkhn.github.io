@@ -10,7 +10,7 @@
 <atom:link href="https://lennartwittkuhn.com/docs/index.xml" rel="self" type="application/rss+xml"/>
 <description>Dr. Lennart Wittkuhn - Research Data Scientist in Cognitive Neurosciece at University of Hamburg and Trainer for Digital Research Skills</description>
 <generator>quarto-1.6.40</generator>
-<lastBuildDate>Tue, 25 Feb 2025 20:22:23 GMT</lastBuildDate>
+<lastBuildDate>Wed, 26 Feb 2025 14:20:22 GMT</lastBuildDate>
 <item>
   <title>Datalad x UHH Object Storage</title>
   <link>https://lennartwittkuhn.com/docs/resources/uhh-object-storage.html</link>
@@ -181,7 +181,7 @@ Technical details of the LSZ
   <category>DataLad</category>
   <category>Research Data Management</category>
   <guid>https://lennartwittkuhn.com/docs/resources/uhh-object-storage.html</guid>
-  <pubDate>Tue, 25 Feb 2025 20:22:23 GMT</pubDate>
+  <pubDate>Wed, 26 Feb 2025 14:20:22 GMT</pubDate>
 </item>
 </channel>
 </rss>
