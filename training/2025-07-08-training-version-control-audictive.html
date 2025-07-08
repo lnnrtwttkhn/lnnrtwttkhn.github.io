@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Dr.&nbsp;Lennart Wittkuhn">
-<meta name="dcterms.date" content="2023-05-11">
-<meta name="description" content=" 10 min  Local  ~ 50 attendees">
+<meta name="dcterms.date" content="2025-07-08">
+<meta name="description" content=" 6 hrs  Local  15 participants">
 
-<title>Dr.&nbsp;Lennart Wittkuhn | A full-semester course on “Version Control of code and data using Git and DataLad” – Dr. Lennart Wittkuhn</title>
+<title>Dr.&nbsp;Lennart Wittkuhn | Track, organize and share your work: Version control of code &amp; data with Git &amp; DataLad – Dr. Lennart Wittkuhn</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,6 +33,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../static/photo-wittkuhn-uhh-square.jpg" rel="icon" type="image/jpeg">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -69,25 +71,93 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-testimonials .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-description','listing-links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-testimonials'] = new List('listing-testimonials', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
 
-<meta property="og:title" content="Dr.&nbsp;Lennart Wittkuhn | A full-semester course on “Version Control of code and data using Git and DataLad”">
-<meta property="og:description" content=" 10 min  Local  ~ 50 attendees">
-<meta property="og:image" content="https://lennartwittkuhn.com/static/bih-quest-logo.png">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Dr.&nbsp;Lennart Wittkuhn | Track, organize and share your work: Version control of code &amp; data with Git &amp; DataLad">
+<meta property="og:description" content=" 6 hrs  Local  15 participants">
+<meta property="og:image" content="https://lennartwittkuhn.com/static/git-logo.svg">
 <meta property="og:site_name" content="Dr. Lennart Wittkuhn">
-<meta property="og:image:height" content="386">
-<meta property="og:image:width" content="580">
-<meta name="twitter:title" content="Dr.&nbsp;Lennart Wittkuhn | A full-semester course on “Version Control of code and data using Git and DataLad”">
-<meta name="twitter:description" content=" 10 min  Local  ~ 50 attendees">
-<meta name="twitter:image" content="https://lennartwittkuhn.com/static/bih-quest-logo.png">
+<meta name="twitter:title" content="Dr.&nbsp;Lennart Wittkuhn | Track, organize and share your work: Version control of code &amp; data with Git &amp; DataLad">
+<meta name="twitter:description" content=" 6 hrs  Local  15 participants">
+<meta name="twitter:image" content="https://lennartwittkuhn.com/static/git-logo.svg">
 <meta name="twitter:creator" content="@lnnrtwttkhn">
-<meta name="twitter:image-height" content="386">
-<meta name="twitter:image-width" content="580">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -134,7 +204,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#website" id="toc-website" class="nav-link active" data-scroll-target="#website">Website</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content page-columns page-full" id="quarto-document-content">
 
@@ -146,85 +224,70 @@ ul.task-list li input[type="checkbox"] {
     <div class="entity-contents">
       <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><p>A full-semester course on “Version Control of code and data using Git and DataLad”</p></h1>
-<p class="subtitle lead"></p><p>Symposium on “Reproducible Research: Education and Teaching Formats Reports from the Reproducibility Networks” at BIH QUEST Center for Responsible Research, Berlin, Germany</p><p></p>
+<h1 class="title">Track, organize and share your work: Version control of code &amp; data with Git &amp; DataLad</h1>
+<p class="subtitle lead">DFG Priority Program AUDICTIVE</p>
   <div class="quarto-categories">
     <div class="quarto-category">Version Control</div>
     <div class="quarto-category">Git</div>
-    <div class="quarto-category">Teaching</div>
     <div class="quarto-category">Reproducibility</div>
-    <div class="quarto-category">Education</div>
-    <div class="quarto-category">GRN</div>
-    <div class="quarto-category">Talk</div>
+    <div class="quarto-category">Open Science</div>
+    <div class="quarto-category">DataLad</div>
+    <div class="quarto-category">Teaching</div>
+    <div class="quarto-category">Course</div>
   </div>
   </div>
 <div>
   <div class="description">
-    <p><i class="fa-solid fa-clock" aria-label="clock"></i> 10 min <i class="fa-solid fa-chalkboard-user" aria-label="chalkboard-user"></i> Local <i class="fa-solid fa-users-viewfinder" aria-label="users-viewfinder"></i> ~ 50 attendees</p>
+    <p><i class="fa-solid fa-clock" aria-label="clock"></i> 6 hrs <i class="fa-solid fa-chalkboard-user" aria-label="chalkboard-user"></i> Local <i class="fa-solid fa-users-viewfinder" aria-label="users-viewfinder"></i> 15 participants</p>
   </div>
 </div>
-<div class="quarto-title-meta-author">
-  <div class="quarto-title-meta-heading">Author</div>
-  <div class="quarto-title-meta-heading">Affiliations</div>
-    <div class="quarto-title-meta-contents">
-    <p class="author"><a href="https://lennartwittkuhn.com/">Lennart Wittkuhn</a> <a href="mailto:lennart.wittkuhn@uni-hamburg.de" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0003-2966-6888" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
-  </div>
-  <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            <a href="https://www.psy.uni-hamburg.de/en.html">
-            University of Hamburg, Institute of Psychology
-            </a>
-          </p>
-      </div>
-  </div>
 <div class="quarto-title-meta">
     <div>
-    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-heading">Date</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 11, 2023</p>
-    </div>
-  </div>
-    <div>
-    <div class="quarto-title-meta-heading">Doi</div>
-    <div class="quarto-title-meta-contents">
-      <p class="doi">
-        <a href="https://doi.org/10.5281/zenodo.7926692">10.5281/zenodo.7926692</a>
-      </p>
+      <p class="date">July 8, 2025</p>
     </div>
   </div>
   </div>
 </header> <div class="about-links">
-  <a href="https://lennartwittkuhn.com/ddlitlab-presentation/" class="about-link" rel="" target="">
+  <a href="https://lennartwittkuhn.com/version-control-course-audictive-2025/" class="about-link" rel="" target="">
     <i class="bi bi-display"></i>
-     <span class="about-link-text">Slides</span>
+     <span class="about-link-text">Course Website</span>
   </a>
-  <a href="https://github.com/lnnrtwttkhn/ddlitlab-presentation" class="about-link" rel="" target="">
+  <a href="https://github.com/lnnrtwttkhn/version-control-course-audictive-2025/" class="about-link" rel="" target="">
     <i class="bi bi-github"></i>
-     <span class="about-link-text">Source</span>
+     <span class="about-link-text">Website Code</span>
   </a>
-  <a href="https://github.com/lnnrtwttkhn/ddlitlab-presentation/releases/download/v1.0/2023-05-11_quest-center-berlin_presentation.pdf" class="about-link" rel="" target="">
-    <i class="bi bi-file-pdf"></i>
-     <span class="about-link-text">PDF Download</span>
-  </a>
-  <a href="https://github.com/lnnrtwttkhn/ddlitlab-presentation/releases/download/v1.0/2023-05-11_quest-center-berlin_program.pdf" class="about-link" rel="" target="">
-    <i class="bi bi-info-circle"></i>
-     <span class="about-link-text">Symposium Program</span>
+  <a href="https://lennartwittkuhn.com/version-control-book/" class="about-link" rel="" target="">
+    <i class="bi bi-book"></i>
+     <span class="about-link-text">Course Book</span>
   </a>
 </div>
       <div class="about-contents"><div id="hero-heading">
 </div></div>
     </div>
-    <img src="../static/bih-quest-logo.png" class="about-image
-  rounded " style="width: 0em;">
+    <img src="../static/git-logo.svg" class="about-image
+  rectangle " style="width: 0em;">
   </div>
 </div>
 
-<iframe width="100%" height="500" src="../static/2023-05-11_quest-center-berlin_presentation.pdf" title="Slides"></iframe>
+<section id="website" class="level2">
+<h2 data-anchor-id="website">Website</h2>
+<iframe width="100%" height="500" src="https://lennartwittkuhn.com/version-control-course-audictive-2025/" title="Website"></iframe>
 
 
 
 
-</main> <!-- /main -->
+</section>
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-testimonials">
+<div class="list quarto-listing-default">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script defer="" data-domain="lnnrtwttkhn.github.io" src="https://plausible.io/js/script.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

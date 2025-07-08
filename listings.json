@@ -1,35 +1,8 @@
 [
   {
-    "listing": "/wip.html",
-    "items": []
-  },
-  {
-    "listing": "/talks/index.html",
+    "listing": "/news/index.html",
     "items": [
-      "/talks/2025-02-26-talk-uma-rdm-2025.html",
-      "/talks/2024-11-28-talk-uhh-rdm-2024.html",
-      "/talks/2024-11-14-talk-ddlitlab-interview.html",
-      "/talks/2024-11-05-talk-castellum-uhh-mpib.html",
-      "/talks/2024-05-31-talk-ddlitlab-pug.html",
-      "/talks/2024-05-30-talk-wittkuhn2024b-pug.html",
-      "/talks/2024-03-20-talk-mps-rdm-2024.html",
-      "/talks/2024-03-06-talk-ddlitlab.html",
-      "/talks/2023-10-10-talk-digital-total.html",
-      "/talks/2023-09-25-talk-castellum-uhh-mpib.html",
-      "/talks/2023-08-29-talk-dra-fair-teaching.html",
-      "/talks/2023-05-11-talk-ddlitlab-quest.html",
-      "/talks/2019-07-12-talk-fmriprep-doeller.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/experience/job-uhh-postdoctoral-researcher.html",
-      "/experience/job-mpib-postdoctoral-researcer.html",
-      "/experience/job-mpib-doctoral-researcher.html",
-      "/education/edu-fub-phd-psych.html",
-      "/education/edu-tud-msc-can.html",
-      "/education/edu-tud-bsc-psych.html",
+      "/training/2025-07-08-training-version-control-audictive.html",
       "/research/kern2025b.html",
       "/training/2025-03-31-training-version-control-mpib.html",
       "/talks/2025-02-26-talk-uma-rdm-2025.html",
@@ -66,68 +39,6 @@
     ]
   },
   {
-    "listing": "/grants/2023-12-23-grant-ddlitlab-uhh.html",
-    "items": [
-      "/talks/2024-05-31-talk-ddlitlab-pug.html",
-      "/grants/2024-03-14-grant-illf-uhh.html",
-      "/talks/2024-03-06-talk-ddlitlab.html",
-      "/talks/2023-05-11-talk-ddlitlab-quest.html"
-    ]
-  },
-  {
-    "listing": "/grants/2024-05-28-grant-cdtl-uhh.html",
-    "items": [
-      "/talks/2024-05-31-talk-ddlitlab-pug.html",
-      "/grants/2024-03-14-grant-illf-uhh.html",
-      "/talks/2024-03-06-talk-ddlitlab.html",
-      "/talks/2023-05-11-talk-ddlitlab-quest.html",
-      "/grants/2023-12-23-grant-ddlitlab-uhh.html"
-    ]
-  },
-  {
-    "listing": "/research/wittkuhn2024b.html",
-    "items": [
-      "/talks/2024-05-30-talk-wittkuhn2024b-pug.html"
-    ]
-  },
-  {
-    "listing": "/portfolio/portfolio-datalad.html",
-    "items": [
-      "/talks/2024-03-20-talk-mps-rdm-2024.html",
-      "/training/2020-11-18-training-datalad-mpib.html"
-    ]
-  },
-  {
-    "listing": "/portfolio/portfolio-bids.html",
-    "items": [
-      "/talks/2019-07-12-talk-fmriprep-doeller.html"
-    ]
-  },
-  {
-    "listing": "/portfolio/portfolio-oer.html",
-    "items": [
-      "/talks/2023-08-29-talk-dra-fair-teaching.html"
-    ]
-  },
-  {
-    "listing": "/training/2025-03-31-training-version-control-mpib.html",
-    "items": []
-  },
-  {
-    "listing": "/training/2024-06-21-training-version-control-mpib.html",
-    "items": []
-  },
-  {
-    "listing": "/training/2025-01-15-training-version-control-zi-mannheim.html",
-    "items": []
-  },
-  {
-    "listing": "/docs/index.html",
-    "items": [
-      "/docs/resources/uhh-object-storage.html"
-    ]
-  },
-  {
     "listing": "/consulting.html",
     "items": [
       "/portfolio/portfolio-bids.html",
@@ -136,6 +47,7 @@
       "/portfolio/portfolio-git.html",
       "/portfolio/portfolio-oer.html",
       "/portfolio/portfolio-quarto.html",
+      "/training/2025-07-08-training-version-control-audictive.html",
       "/training/2025-03-31-training-version-control-mpib.html",
       "/training/2025-01-31-training-version-control-uhh.html",
       "/training/2025-01-15-training-version-control-zi-mannheim.html",
@@ -164,16 +76,35 @@
     ]
   },
   {
-    "listing": "/education/index.html",
+    "listing": "/portfolio/portfolio-git.html",
     "items": [
-      "/education/edu-tud-bsc-psych.html",
-      "/education/edu-tud-msc-can.html",
-      "/education/edu-fub-phd-psych.html"
+      "/training/2024-04-06-training-version-control-uhh.html",
+      "/talks/2023-05-11-talk-ddlitlab-quest.html"
     ]
   },
   {
-    "listing": "/news/index.html",
+    "listing": "/portfolio/portfolio-bids.html",
     "items": [
+      "/talks/2019-07-12-talk-fmriprep-doeller.html"
+    ]
+  },
+  {
+    "listing": "/portfolio/portfolio-datalad.html",
+    "items": [
+      "/talks/2024-03-20-talk-mps-rdm-2024.html",
+      "/training/2020-11-18-training-datalad-mpib.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/experience/job-uhh-postdoctoral-researcher.html",
+      "/experience/job-mpib-postdoctoral-researcer.html",
+      "/experience/job-mpib-doctoral-researcher.html",
+      "/education/edu-fub-phd-psych.html",
+      "/education/edu-tud-msc-can.html",
+      "/education/edu-tud-bsc-psych.html",
+      "/training/2025-07-08-training-version-control-audictive.html",
       "/research/kern2025b.html",
       "/training/2025-03-31-training-version-control-mpib.html",
       "/talks/2025-02-26-talk-uma-rdm-2025.html",
@@ -210,21 +141,49 @@
     ]
   },
   {
-    "listing": "/training/2024-09-27-training-version-control-uhh.html",
-    "items": []
+    "listing": "/education/index.html",
+    "items": [
+      "/education/edu-tud-bsc-psych.html",
+      "/education/edu-tud-msc-can.html",
+      "/education/edu-fub-phd-psych.html"
+    ]
   },
   {
-    "listing": "/portfolio/portfolio-git.html",
+    "listing": "/grants/2023-12-23-grant-ddlitlab-uhh.html",
     "items": [
-      "/training/2024-04-06-training-version-control-uhh.html",
+      "/talks/2024-05-31-talk-ddlitlab-pug.html",
+      "/grants/2024-03-14-grant-illf-uhh.html",
+      "/talks/2024-03-06-talk-ddlitlab.html",
       "/talks/2023-05-11-talk-ddlitlab-quest.html"
     ]
   },
   {
-    "listing": "/portfolio/portfolio-quarto.html",
+    "listing": "/grants/index.html",
     "items": [
-      "/training/2023-12-01-training-quarto-uhh.html"
+      "/grants/2025-02-21-teaching-award-psychology.html",
+      "/grants/2024-05-28-grant-cdtl-uhh.html",
+      "/grants/2024-05-23-grant-claussen-simon-stiftung.html",
+      "/grants/2024-03-14-grant-illf-uhh.html",
+      "/grants/2023-12-23-grant-ddlitlab-uhh.html"
     ]
+  },
+  {
+    "listing": "/grants/2024-05-23-grant-claussen-simon-stiftung.html",
+    "items": [
+      "/talks/2023-08-29-talk-dra-fair-teaching.html"
+    ]
+  },
+  {
+    "listing": "/training/2024-09-27-training-version-control-uhh.html",
+    "items": []
+  },
+  {
+    "listing": "/training/2024-06-21-training-version-control-mpib.html",
+    "items": []
+  },
+  {
+    "listing": "/training/2025-01-15-training-version-control-zi-mannheim.html",
+    "items": []
   },
   {
     "listing": "/research/index.html",
@@ -237,9 +196,45 @@
     ]
   },
   {
-    "listing": "/grants/2024-05-23-grant-claussen-simon-stiftung.html",
+    "listing": "/research/wittkuhn2024b.html",
     "items": [
-      "/talks/2023-08-29-talk-dra-fair-teaching.html"
+      "/talks/2024-05-30-talk-wittkuhn2024b-pug.html"
+    ]
+  },
+  {
+    "listing": "/talks/index.html",
+    "items": [
+      "/talks/2025-02-26-talk-uma-rdm-2025.html",
+      "/talks/2024-11-28-talk-uhh-rdm-2024.html",
+      "/talks/2024-11-14-talk-ddlitlab-interview.html",
+      "/talks/2024-11-05-talk-castellum-uhh-mpib.html",
+      "/talks/2024-05-31-talk-ddlitlab-pug.html",
+      "/talks/2024-05-30-talk-wittkuhn2024b-pug.html",
+      "/talks/2024-03-20-talk-mps-rdm-2024.html",
+      "/talks/2024-03-06-talk-ddlitlab.html",
+      "/talks/2023-10-10-talk-digital-total.html",
+      "/talks/2023-09-25-talk-castellum-uhh-mpib.html",
+      "/talks/2023-08-29-talk-dra-fair-teaching.html",
+      "/talks/2023-05-11-talk-ddlitlab-quest.html",
+      "/talks/2019-07-12-talk-fmriprep-doeller.html"
+    ]
+  },
+  {
+    "listing": "/training/2025-07-08-training-version-control-audictive.html",
+    "items": []
+  },
+  {
+    "listing": "/training/2025-03-31-training-version-control-mpib.html",
+    "items": []
+  },
+  {
+    "listing": "/grants/2024-05-28-grant-cdtl-uhh.html",
+    "items": [
+      "/talks/2024-05-31-talk-ddlitlab-pug.html",
+      "/grants/2024-03-14-grant-illf-uhh.html",
+      "/talks/2024-03-06-talk-ddlitlab.html",
+      "/talks/2023-05-11-talk-ddlitlab-quest.html",
+      "/grants/2023-12-23-grant-ddlitlab-uhh.html"
     ]
   },
   {
@@ -256,16 +251,6 @@
     ]
   },
   {
-    "listing": "/grants/index.html",
-    "items": [
-      "/grants/2025-02-21-teaching-award-psychology.html",
-      "/grants/2024-05-28-grant-cdtl-uhh.html",
-      "/grants/2024-05-23-grant-claussen-simon-stiftung.html",
-      "/grants/2024-03-14-grant-illf-uhh.html",
-      "/grants/2023-12-23-grant-ddlitlab-uhh.html"
-    ]
-  },
-  {
     "listing": "/experience/index.html",
     "items": [
       "/experience/role-mpib-rdm.html",
@@ -275,5 +260,27 @@
       "/experience/job-uhh-postdoctoral-researcher.html",
       "/experience/role-uhh-castellum.html"
     ]
+  },
+  {
+    "listing": "/docs/index.html",
+    "items": [
+      "/docs/resources/uhh-object-storage.html"
+    ]
+  },
+  {
+    "listing": "/portfolio/portfolio-oer.html",
+    "items": [
+      "/talks/2023-08-29-talk-dra-fair-teaching.html"
+    ]
+  },
+  {
+    "listing": "/portfolio/portfolio-quarto.html",
+    "items": [
+      "/training/2023-12-01-training-quarto-uhh.html"
+    ]
+  },
+  {
+    "listing": "/wip.html",
+    "items": []
   }
 ]
