@@ -50,6 +50,7 @@
       "/education/edu-tud-msc-can.html",
       "/education/edu-tud-bsc-psych.html",
       "/research/wittkuhn2025pnas.html",
+      "/research/hall-mcmaster2025b.html",
       "/training/2025-07-08-training-version-control-audictive.html",
       "/research/kern2025b.html",
       "/training/2025-03-31-training-version-control-mpib.html",
@@ -161,31 +162,10 @@
     ]
   },
   {
-    "listing": "/research/wittkuhn2024b.html",
-    "items": [
-      "/talks/2024-05-30-talk-wittkuhn2024b-pug.html"
-    ]
-  },
-  {
-    "listing": "/research/index.html",
-    "items": [
-      "/research/wittkuhn2025pnas.html",
-      "/research/kern2025b.html",
-      "/research/wittkuhn2021nbr.html",
-      "/research/wittkuhn2021nc.html",
-      "/research/wittkuhn2018n.html"
-    ]
-  },
-  {
-    "listing": "/docs/index.html",
-    "items": [
-      "/docs/resources/uhh-object-storage.html"
-    ]
-  },
-  {
     "listing": "/news/index.html",
     "items": [
       "/research/wittkuhn2025pnas.html",
+      "/research/hall-mcmaster2025b.html",
       "/training/2025-07-08-training-version-control-audictive.html",
       "/research/kern2025b.html",
       "/training/2025-03-31-training-version-control-mpib.html",
@@ -220,6 +200,29 @@
       "/training/2020-11-18-training-datalad-mpib.html",
       "/talks/2019-07-12-talk-fmriprep-doeller.html",
       "/research/wittkuhn2018n.html"
+    ]
+  },
+  {
+    "listing": "/docs/index.html",
+    "items": [
+      "/docs/resources/uhh-object-storage.html"
+    ]
+  },
+  {
+    "listing": "/research/index.html",
+    "items": [
+      "/research/wittkuhn2025pnas.html",
+      "/research/hall-mcmaster2025b.html",
+      "/research/kern2025b.html",
+      "/research/wittkuhn2021nbr.html",
+      "/research/wittkuhn2021nc.html",
+      "/research/wittkuhn2018n.html"
+    ]
+  },
+  {
+    "listing": "/research/wittkuhn2024b.html",
+    "items": [
+      "/talks/2024-05-30-talk-wittkuhn2024b-pug.html"
     ]
   },
   {

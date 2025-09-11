@@ -284,7 +284,7 @@
     "href": "index.html#latest-news",
     "title": "Dr. Lennart Wittkuhn",
     "section": "Latest news",
-    "text": "Latest news\nFor more news, visit the news section.\n\n\n\n\n\nWhen?\n\n\nWhat?\n\n\n\n\n\n\nAug 2025\n\n\nNew paper: Our paper “Replay in the human visual cortex during brief task pauses is linked to implicit learning of successor representations” is now out in PNAS. Joint work with Lena Krippner, Christoph Koch and Nico Schuck. \n\n\n\n\nJul 2025\n\n\nNew course: I gave a full-day course “Track, organize and share your work: Version control of code & data with Git & DataLad” at the DFG Priority Program AUDICTIVE! In this hands-on course with practical exercises, 15 researchers learned effective version control and collaboration with Git and DataLad. \n\n\n\n\nJun 2025\n\n\nNew preprint: Our preprint “Challenges in replay detection by TDLM in post-encoding resting state” is now out on bioRxiv. Work led by Simon Kern, to which I was glad to contribute. \n\n\n\n\n\nNo matching items"
+    "text": "Latest news\nFor more news, visit the news section.\n\n\n\n\n\nWhen?\n\n\nWhat?\n\n\n\n\n\n\nAug 2025\n\n\nNew paper: Our paper “Replay in the human visual cortex during brief task pauses is linked to implicit learning of successor representations” is now out in PNAS. Joint work with Lena Krippner, Christoph Koch and Nico Schuck. \n\n\n\n\nAug 2025\n\n\nNew preprint: Our preprint “Entorhinal cortex signals dimensions of past experience that can be generalised in a novel environment” is now out on bioRxiv. Work led by Sam Hall-McMaster, to which I was glad to contribute. \n\n\n\n\nJul 2025\n\n\nNew course: I gave a full-day course “Track, organize and share your work: Version control of code & data with Git & DataLad” at the DFG Priority Program AUDICTIVE! In this hands-on course with practical exercises, 15 researchers learned effective version control and collaboration with Git and DataLad. \n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#experience",
@@ -427,25 +427,207 @@
     "text": "About\nThe Research Data Management & Open Science working group at the Max Planck Institute for Human Development in Berlin deals with questions of institutionalized, cross-departmental research data management. It is composed across organizational units and was established by the Board of Directors in 2018.\nResearch data management is understood here as the process of managing research data throughout its entire life cycle, from planning, data collection, selection, analysis and storage to data editing for possible subsequent use. For this purpose, the Research Data Management & Open Science working group, together with the institute’s employees, develops a strategy and concrete solutions and accompanies their sustainable implementation and further development.\nWith respect to Open Science, the working group deals in particular with the possibilities and limits of making research data accessible to third parties. Its aim is to support the implementation of such practices in day-to-day research by organizing hands-on workshops.\nThe members of the working group come from different fields (IT, Library and Research Information, Research Departments)."
   },
   {
-    "objectID": "research/wittkuhn2022b.html",
-    "href": "research/wittkuhn2022b.html",
-    "title": "Statistical learning of successor representations is related to on-task replay",
+    "objectID": "research/hall-mcmaster2025b.html",
+    "href": "research/hall-mcmaster2025b.html",
+    "title": "Entorhinal cortex signals dimensions of past experience that can be generalised in a novel environment",
     "section": "",
-    "text": "Preprint\n  \n  \n    \n     PDF\n  \n  \n      Altmetric\n  \n  \n      Google Scholar"
+    "text": "Preprint\n  \n  \n    \n     PDF"
   },
   {
-    "objectID": "research/wittkuhn2022b.html#abstract",
-    "href": "research/wittkuhn2022b.html#abstract",
-    "title": "Statistical learning of successor representations is related to on-task replay",
+    "objectID": "research/hall-mcmaster2025b.html#abstract",
+    "href": "research/hall-mcmaster2025b.html#abstract",
+    "title": "Entorhinal cortex signals dimensions of past experience that can be generalised in a novel environment",
     "section": "Abstract",
-    "text": "Abstract\n\nHumans automatically infer higher-order relationships between events in the environment from their statistical co-occurrence, often without conscious awareness. Neural replay of task representations, which has been described as sampling from a learned transition structure of the environment, is a candidate mechanism by which the brain could use or even learn such relational information in the service of adaptive behavior. Human participants viewed sequences of images that followed probabilistic transitions determined by ring-like graph structures. Behavioral modeling revealed that participants acquired multi-step transition knowledge through gradual updating of an internal successor representation (SR) model, although half of participants did not indicate any knowledge about the sequential task structure. To investigate neural replay, we analyzed dynamics of multivariate functional magnetic resonance imaging (fMRI) patterns during short pauses from the ongoing statistical learning task. Evidence for sequential replay consistent with the probabilistic task structure was found in occipito-temporal and sensorimotor cortices during short on-task intervals. These findings indicate that implicit learning of higher-order relationships establishes an internal SR-based map of the task, and is accompanied by cortical on-task replay."
+    "text": "Abstract\n\nNo two situations are identical. They can be similar in some aspects but different in others. This poses a key challenge when attempting to generalise our experience from one situation to another. How do we distinguish the aspects that transfer across situations from those that do not? One hypothesis is that the medial temporal lobe (MTL) meets this challenge by forming factorised representations that allow for increased neural similarity between events that share generalisable features. We tested this hypothesis in a functional magnetic resonance imaging study. Forty people were trained to report behavioural sequences based on an underlying graph structure. People then made decisions in a new environment where some, but not all graph transitions from the previous structure could be generalised. Behavioural results showed that participants distinguished the generalisable transition information. Accuracy was significantly higher in blocks in which sequence transitions were shared across environments, than those in which transitions differed. This boost in accuracy was especially pronounced during early exposure to the novel environment. Throughout this early phase, neural patterns in the entorhinal cortex (EC) showed a corresponding differentiation of the generalisable aspects. Neural patterns representing starting locations in familiar and novel environments were significantly more similar in the EC on trials where sequences could be generalised from prior experience, compared to trials with new sequential transitions. This signalling was associated with improved performance when prior sequence knowledge could be reused. Our results suggest that during early exposure to novel environments, the EC may signal dimensions of past experience that can be generalised."
   },
   {
-    "objectID": "research/wittkuhn2022b.html#citation",
-    "href": "research/wittkuhn2022b.html#citation",
-    "title": "Statistical learning of successor representations is related to on-task replay",
+    "objectID": "research/hall-mcmaster2025b.html#citation",
+    "href": "research/hall-mcmaster2025b.html#citation",
+    "title": "Entorhinal cortex signals dimensions of past experience that can be generalised in a novel environment",
     "section": "Citation",
-    "text": "Citation\n\n\nWittkuhn, L., Krippner, L. M., & Schuck, N. W. (2022). Statistical learning of successor representations is related to on-task replay. bioRxiv. https://doi.org/10.1101/2022.02.02.478787"
+    "text": "Citation\n\n\nHall-McMaster, S., Wittkuhn, L., Verra, L., Hedrich, N. L., Irie, K., Dayan, P., Gershman, S. J., & Schuck, N. W. (2025). Entorhinal cortex signals dimensions of past experience that can be generalised in a novel environment. http://dx.doi.org/10.1101/2025.08.01.668096"
+  },
+  {
+    "objectID": "research/wittkuhn2021nbr.html",
+    "href": "research/wittkuhn2021nbr.html",
+    "title": "Replay in minds and machines",
+    "section": "",
+    "text": "URL\n  \n  \n    \n     Postprint\n  \n  \n      Preprint\n  \n  \n    \n     Code\n  \n  \n    \n     Thread\n  \n  \n      Altmetric\n  \n  \n      Google Scholar"
+  },
+  {
+    "objectID": "research/wittkuhn2021nbr.html#abstract",
+    "href": "research/wittkuhn2021nbr.html#abstract",
+    "title": "Replay in minds and machines",
+    "section": "Abstract",
+    "text": "Abstract\n\nExperience-related brain activity patterns reactivate during sleep, wakeful rest, and brief pauses from active behavior. In parallel, machine learning research has found that experience replay can lead to substantial performance improvements in artificial agents. Together, these lines of research suggest that replay has a variety of computational benefits for decision-making and learning. Here, we provide an overview of putative computational functions of replay as suggested by machine learning and neuroscientific research. We show that replay can lead to faster learning, less forgetting, reorganization or augmentation of experiences, and support planning and generalization. In addition, we highlight the benefits of reactivating abstracted internal representations rather than veridical memories, and discuss how replay could provide a mechanism to build internal representations that improve learning and decision-making."
+  },
+  {
+    "objectID": "research/wittkuhn2021nbr.html#citation",
+    "href": "research/wittkuhn2021nbr.html#citation",
+    "title": "Replay in minds and machines",
+    "section": "Citation",
+    "text": "Citation\n\n\nWittkuhn, L., Chien, S., Hall-McMaster, S., & Schuck, N. W. (2021). Replay in minds and machines. Neuroscience & Biobehavioral Reviews, 129, 367–388. https://doi.org/10.1016/j.neubiorev.2021.08.002"
+  },
+  {
+    "objectID": "research/kern2025b.html",
+    "href": "research/kern2025b.html",
+    "title": "Challenges in replay detection by TDLM in post-encoding resting state",
+    "section": "",
+    "text": "Preprint\n  \n  \n    \n     PDF"
+  },
+  {
+    "objectID": "research/kern2025b.html#abstract",
+    "href": "research/kern2025b.html#abstract",
+    "title": "Challenges in replay detection by TDLM in post-encoding resting state",
+    "section": "Abstract",
+    "text": "Abstract\n\nWe investigated, using temporally delayed linear modelling (TDLM) and magnetoencephalography (MEG), whether items associated with an underlying graph structure are replayed during a post-learning resting state. In these same data, we have previously provided evidence for replay during on-line (non-rest) memory retrieval. Despite successful decoding of brain activity during a localizer task, and contrary to predictions, we did not detect evidence for replay during a post-learning resting state. To better understand this, we performed a hybrid simulation analysis in which we inserted synthetic replay events into a control resting state recorded prior to the actual experiment. This simulation revealed that replay detection using our current pipeline requires extremely high replay densities to reach significance (&gt;1 replay sequence per second, with “replay” defined as a sequence of reactivations within a certain time lag). Furthermore, when scaling the number of replay events with a behavioural measure we were unable to experimentally induce a strong correlation between sequenceness and this measure. We infer that even if replay was present at plausible rates in our resting state dataset we would lack statistical power to detect it with TDLM. We discuss ways for optimizing the analysis approach and how to find boundary conditions under which TDLM can be expected to detect replay successfully. We conclude that solving these methodological constraints is likely to be crucial to optimise measuring replay non-invasively using MEG in humans."
+  },
+  {
+    "objectID": "research/kern2025b.html#citation",
+    "href": "research/kern2025b.html#citation",
+    "title": "Challenges in replay detection by TDLM in post-encoding resting state",
+    "section": "Citation",
+    "text": "Citation\n\n\nKern, S., Nagel, J., Wittkuhn, L., Gais, S., Dolan, R. J., & Feld, G. B. (2025). Challenges in replay detection by TDLM in post-encoding resting state. http://dx.doi.org/10.1101/2025.06.11.658835"
+  },
+  {
+    "objectID": "research/wittkuhn2025pnas.html",
+    "href": "research/wittkuhn2025pnas.html",
+    "title": "Replay in the human visual cortex during brief task pauses is linked to implicit learning of successor representations",
+    "section": "",
+    "text": "URL\n  \n  \n    \n     Data\n  \n  \n    \n     Code\n  \n  \n      Google Scholar"
+  },
+  {
+    "objectID": "research/wittkuhn2025pnas.html#abstract",
+    "href": "research/wittkuhn2025pnas.html#abstract",
+    "title": "Replay in the human visual cortex during brief task pauses is linked to implicit learning of successor representations",
+    "section": "Abstract",
+    "text": "Abstract\n\nHumans can implicitly learn about multistep sequential relationships between events in the environment from their statistical co-occurrence. Theoretical work has suggested that neural replay is a candidate mechanism that aids such learning. Here, we used functional MRI (fMRI) to test whether replay is related to implicit learning of higher-order sequential relationships. Human participants viewed sequences of images that followed probabilistic transitions determined by ring-like graph structures. Behavioral modeling of response times revealed that participants acquired multistep transition knowledge in a manner consistent with gradual updating of an internal successor representation (SR) model. Yet, half of participants did not report being aware of any sequential task structure, and most participants failed to provide meaningful transition probability ratings in a posttask test. Analyses of temporal dynamics of multivariate fMRI patterns during brief 10 s pauses from the ongoing statistical learning task indicated backward sequential replay of multistep sequences in visual cortical areas. Variations in model parameters between participants that captured response time patterns related to strength of neural replay. No corresponding relations between replay and measures of explicit awareness were found. These findings indicate that implicit learning of higher-order relationships establishes an internal SR-based map of the task and is accompanied by cortical on-task replay."
+  },
+  {
+    "objectID": "research/wittkuhn2025pnas.html#citation",
+    "href": "research/wittkuhn2025pnas.html#citation",
+    "title": "Replay in the human visual cortex during brief task pauses is linked to implicit learning of successor representations",
+    "section": "Citation",
+    "text": "Citation"
+  },
+  {
+    "objectID": "research/wittkuhn2018n.html",
+    "href": "research/wittkuhn2018n.html",
+    "title": "Repetitive transcranial magnetic stimulation over dorsolateral prefrontal cortex modulates value-based learning during sequential decision-making",
+    "section": "",
+    "text": "URL"
+  },
+  {
+    "objectID": "research/wittkuhn2018n.html#abstract",
+    "href": "research/wittkuhn2018n.html#abstract",
+    "title": "Repetitive transcranial magnetic stimulation over dorsolateral prefrontal cortex modulates value-based learning during sequential decision-making",
+    "section": "Abstract",
+    "text": "Abstract\n\nAdaptive behavior in daily life often requires the ability to acquire and represent sequential contingencies between actions and the associated outcomes. Although accumulating evidence implicates the role of dorsolateral prefrontal cortex (dlPFC) in complex value-based learning and decision-making, direct evidence for involvements of this region in integrating information across sequential decision states is still scarce. Using a 3-stage deterministic Markov decision task, here we applied offline, inhibitory low-frequency 1-Hz repetitive transcranial magnetic stimulation (rTMS) over the left dlPFC in young male adults (n = 31, mean age = 23.8 years, SD = 2.5 years) in a within-subject cross-over design to study the roles of this region in influencing value-based sequential decision-making. In two separate sessions, each participant received 1-Hz rTMS stimulation either over the left dlPFC or over the vertex. The results showed that transiently inhibiting the left dlPFC impaired choice accuracy, particularly in situations in which the acquisition of sequential transitions between decision states and temporally lagged action-outcome contingencies played a greater role. Estimating parameters of a diffusion model from behavioral choices, we found that the diffusion drift rate, which reflects the efficiency of information integration, was attenuated by the stimulation. Moreover, the effects of rTMS interacted with session: individuals who could not efficiently integrate information across sequential states in the first session due to disrupted dlPFC function also could not catch up in performance during the second session with those individuals who could learn sequential transitions with intact dlPFC function in the first session. Taken together, our findings suggest that the left dlPFC is crucially involved in the acquisition of complex sequential relations and in the potential of such learning."
+  },
+  {
+    "objectID": "research/wittkuhn2018n.html#citation",
+    "href": "research/wittkuhn2018n.html#citation",
+    "title": "Repetitive transcranial magnetic stimulation over dorsolateral prefrontal cortex modulates value-based learning during sequential decision-making",
+    "section": "Citation",
+    "text": "Citation\n\n\nWittkuhn, L., Eppinger, B., Bartsch, L. M., Thurm, F., Korb, F. M., & Li, S.-C. (2018). Repetitive transcranial magnetic stimulation over dorsolateral prefrontal cortex modulates value-based learning during sequential decision-making. NeuroImage, 167, 384–395. https://doi.org/10.1016/j.neuroimage.2017.11.057"
+  },
+  {
+    "objectID": "docs/til/r-list-names.html",
+    "href": "docs/til/r-list-names.html",
+    "title": "Accessing list elements in R by name",
+    "section": "",
+    "text": "Let’s create a list mylist with two elements, mylist$frequency and mylist$amplitude.\n\n\nCode\nmylist &lt;- list()\nmylist$frequency &lt;- 0.193\nmylist$amplitude &lt;- 0.603\n\n\nIf we want to see the value of mylist$frequency, we can do this:\n\n\nCode\nmylist$frequency\n\n\n[1] 0.193\n\n\nBut we can also do this:\n\n\nCode\nmylist$fre\n\n\n[1] 0.193\n\n\nWe now add another element to the list called mylist$freestyle.\nNote, that freestyle also starts with the letters fre!\n\n\nCode\nmylist$freestyle = 0.479\n\n\nNow we can’t do this anymore:\n\n\nCode\nmylist$fre\n\n\nNULL"
+  },
+  {
+    "objectID": "acknowledgements.html",
+    "href": "acknowledgements.html",
+    "title": "Acknowledgements & Attribution",
+    "section": "",
+    "text": "This website was made with 💜 and Quarto.\nThe source code for this website can be found on GitHub .\n\n\n\nThis website uses the Atkinson Hyperlegible font. Copyright © 2020, Braille Institute of America, Inc., https://www.brailleinstitute.org/freefont with Reserved Typeface Name Atkinson Hyperlegible Font. Details of the license can be found here.\n\n\n\nAll code for this website is licensed under CC BY 4.0.\n\n\n\nDid you spot an error? Is there an issue with the website? Do you have feedback, questions or comments? I would love to hear from you! Open an issue on GitHub or write an email.\n\n\n    \n\n\nDr. Lennart Wittkuhn Von-Melle-Park 5, 20146 Hamburg, Germany +49 040-42838 5346 lennart.wittkuhn@tutanota.com"
+  },
+  {
+    "objectID": "acknowledgements.html#website",
+    "href": "acknowledgements.html#website",
+    "title": "Acknowledgements & Attribution",
+    "section": "",
+    "text": "This website was made with 💜 and Quarto.\nThe source code for this website can be found on GitHub .\n\n\n\nThis website uses the Atkinson Hyperlegible font. Copyright © 2020, Braille Institute of America, Inc., https://www.brailleinstitute.org/freefont with Reserved Typeface Name Atkinson Hyperlegible Font. Details of the license can be found here.\n\n\n\nAll code for this website is licensed under CC BY 4.0.\n\n\n\nDid you spot an error? Is there an issue with the website? Do you have feedback, questions or comments? I would love to hear from you! Open an issue on GitHub or write an email.\n\n\n    \n\n\nDr. Lennart Wittkuhn Von-Melle-Park 5, 20146 Hamburg, Germany +49 040-42838 5346 lennart.wittkuhn@tutanota.com"
+  },
+  {
+    "objectID": "acknowledgements.html#inspiration",
+    "href": "acknowledgements.html#inspiration",
+    "title": "Acknowledgements & Attribution",
+    "section": "Inspiration",
+    "text": "Inspiration\n\n\n\n\n\nAuthors\nDescription\nWebsite\nSource\nLicense\n\n\n\n\nAndrew Heiss\nPersonal website\n\n\n\n\n\nBeatriz Milz\nBlog\n\n\n\n\n\nDanielle Navarro\nBlog\n\n\n\n\n\nDrew Dimmerey\nPersonal website\n\n\nn/a\n\n\nJadey Ryan\nPersonal website\n\n\n\n\n\nMine Çetinkaya-Rundel & Julia Stewart Lowndes\nBlog\n\n\nn/a\n\n\nOndřej Zíka\nPersonal website\n\n\nn/a\n\n\nSamantha Csik\nPersonal website\n\n\nn/a\n\n\nTermeh Shafie\nPersonal website\n\n\n\n\n\n\n\n\nThank you for sharing your code! 🙏"
+  },
+  {
+    "objectID": "news/index.html",
+    "href": "news/index.html",
+    "title": "News",
+    "section": "",
+    "text": "Filter: All / Papers / Talks / Courses / Grants & Awards\n\n\n\n\n\nWhen?\n\n\nWhat?\n\n\n\n\n\n\nAug 2025\n\n\nNew paper: Our paper “Replay in the human visual cortex during brief task pauses is linked to implicit learning of successor representations” is now out in PNAS. Joint work with Lena Krippner, Christoph Koch and Nico Schuck. \n\n\n\n\nAug 2025\n\n\nNew preprint: Our preprint “Entorhinal cortex signals dimensions of past experience that can be generalised in a novel environment” is now out on bioRxiv. Work led by Sam Hall-McMaster, to which I was glad to contribute. \n\n\n\n\nJul 2025\n\n\nNew course: I gave a full-day course “Track, organize and share your work: Version control of code & data with Git & DataLad” at the DFG Priority Program AUDICTIVE! In this hands-on course with practical exercises, 15 researchers learned effective version control and collaboration with Git and DataLad. \n\n\n\n\nJun 2025\n\n\nNew preprint: Our preprint “Challenges in replay detection by TDLM in post-encoding resting state” is now out on bioRxiv. Work led by Simon Kern, to which I was glad to contribute. \n\n\n\n\nMar 2025\n\n\nNew course: I gave another full-day course “Track, organize and share your work: An introduction to Git for research” at the Max Planck Institute for Human Development, Berlin, Germany! In this hands-on course with practical exercises, 8 doctoral researchers and research support staff learned effective version control and collaboration with Git. \n\n\n\n\nFeb 2025\n\n\nNew talk: I gave a talk about “Reproducible Research Data Management with DataLad” at the Mannheim Open Science Meetup of the University of Mannheim, Germany. \n\n\n\n\nFeb 2025\n\n\nNew award: I received the Teaching Award Psychology 2024 for my course “Track organize and share your work: An introduction to Git for research”. \n\n\n\n\nJan 2025\n\n\nNew course: We completed our full-semester course “An introduction to Git for psychological research” at University of Hamburg and Erasmus University Rotterdam! In this international teaching project, 27 PhD & MSc Psychology students from two universities learned how to track, organize and share their work using Git. \n\n\n\n\nJan 2025\n\n\nNew course: I gave a 3-day course “Track, organize and share your work: An introduction to Git for research” at the Central Institute of Mental Health (ZI), Mannheim, Germany! In this hands-on course with practical exercises, 35 early-career researchers learned effective version control and collaboration with Git. \n\n\n\n\nNov 2024\n\n\nNew talk: I gave a talk about “Reproducible Research Data Management with DataLad” at the Joint Lab Meeting (Gluth, Schuck & Schwabe Labs) at University of Hamburg, Germany. \n\n\n\n\nNov 2024\n\n\nNew interview: I gave an interview (in German) about our course “Version Control with Git” as part of the series “Spotlight: Data Literacy Lehrlabor” at University of Hamburg, Germany. \n\n\n\n\nNov 2024\n\n\nNew talk: I gave a talk about “Castellum at University of Hamburg” at the 2nd “Castellum Community Meeting” at the Max Planck Institute for Human Development, Berlin, Germany. \n\n\n\n\nSep 2024\n\n\nNew course: I gave a full-day course “Track, organize and share your work: An introduction to Git for research” at the Cognitive Modelling & Decision Neuroscience Lab at University of Hamburg, Germany! In this hands-on course with practical exercises, (post)doctoral researchers learned effective version control and collaboration with Git. \n\n\n\n\nJul 2024\n\n\nUpdated preprint: Our preprint “Replay in human visual cortex is linked to the formation of successor representations and independent of consciousness” is now updated on bioRxiv. Joint work with Lena M. Krippner, Christoph Koch and Nicolas W. Schuck. \n\n\n\n\nJun 2024\n\n\nNew course: I gave a full-day course “Track, organize and share your work: An introduction to Git for research” at the Max Planck Institute for Human Development, Berlin, Germany! In this hands-on course with practical exercises, 10 doctoral researchers and research support staff learned effective version control and collaboration with Git. \n\n\n\n\nMay 2024\n\n\nNew poster: Together with Konrad Pagenstedt, I gave a poster presentation about our full-semester course about Git for scientists titled “Version Control of Code and Data” at the “Psychology and Brain / Psychologie und Gehirn (PuG)” 2024 conference in Hamburg, Germany. \n\n\n\n\nMay 2024\n\n\nNew poster: I gave a poster presentation about our updated preprint titled “Implicit learning of successor representations is related to backward replay in visual cortex” at the “Psychology and Brain / Psychologie und Gehirn (PuG)” 2024 conference in Hamburg, Germany. \n\n\n\n\nMay 2024\n\n\nNew grant: I received ~40,000 Euro from the Digital and Data Literacy in Teaching Lab (DDLitLab) program at University of Hamburg to establish a “Cross-Disciplinary Teaching Lab (CDTL)” course on digital research skills. \n\n\n\n\nMay 2024\n\n\nNew grant: I received 10,000 Euro from the “Claussen-Simon Fund for Science & Higher Education 2024” by the Claussen Simon Foundation to implement FAIR and reproducible teaching at Universität Hamburg. \n\n\n\n\nApr 2024\n\n\nNew course: Our new full-semester course “An introduction to Git for psychological research” started at University of Hamburg! In this hands-on course with practical exercises, 24 MSc Psychology students will learn how to track, organize and share their work using Git. \n\n\n\n\nMar 2024\n\n\nNew talk: I gave a talk about “Reproducible Research Data Management with DataLad” at “6th RDM-Workshop 2024 on Research Data Management in the Max Planck Society” at the Max Planck Institute for Astronomy, Heidelberg, Germany. \n\n\n\n\nMar 2024\n\n\nNew grant: Together with Dr. Ana Martinovici from Erasmus University Rotterdam, I received ~10,000 Euro from the International Teaching and Learning Formats (ILLF@home) program to establish an international teaching project on “Version Control of Code & Data with Git”. \n\n\n\n\nMar 2024\n\n\nNew poster & talk: Together with Konrad Pagenstedt, I gave a poster presentation and short talk about our full-semester course about Git for scientists titled “Version Control of Code and Data” at the “Digital and Data Literacy in Teaching Lab (DDLitLab)” closing event at University of Hamburg, Germany. \n\n\n\n\nDec 2023\n\n\nNew workshop: Together with Konrad Pagenstedt, I gave a workshop “Introduction to Quarto” for Psychology MSc students and doctoral researchers at the University of Hamburg, Germany. \n\n\n\n\nOct 2023\n\n\nNew course: Our new full-semester course “An Introduction to Version Control of Code and Data” started at University of Hamburg! In this hands-on course with practical exercises, 6 MSc & PhD Psychology students will learn effective version control of code and data using Git. \n\n\n\n\nOct 2023\n\n\nNew talk: I gave a talk about “Science as distributed open-source knowledge development” at the “Digital Total” conference at University of Hamburg, Germany. \n\n\n\n\nSep 2023\n\n\nNew talk: I gave a talk about “Castellum at University of Hamburg” at the “Castellum Community Meeting” at the Max Planck Institute for Human Development, Berlin, Germany. \n\n\n\n\nAug 2023\n\n\nNew talk: Together with Esther Plomp, I gave a talk about “Reproducible & FAIR Teaching Materials” at the train-the-trainer program of the Digital Research Academy. \n\n\n\n\nMay 2023\n\n\nNew talk: I gave a talk about our full-semester course on “Version Control of code and data using Git and DataLad” at the symposium on “Reproducible Research: Education and Teaching Formats Reports from the Reproducibility Networks” at BIH QUEST Center for Responsible Research, Berlin, Germany. \n\n\n\n\nDec 2022\n\n\nNew grant: Together with Nicolas Schuck, I received ~50,000 Euro from the Digital and Data Literacy in Teaching Lab (DDLitLab) program at University of Hamburg to establish a course on “Version Control of Code & Data with Git and DataLad”. \n\n\n\n\nFeb 2022\n\n\nNew preprint: Our preprint “Statistical learning of successor representations is related to on-task replay” is now out on bioRxiv. Joint work with Lena M. Krippner and Nicolas W. Schuck. \n\n\n\n\nAug 2021\n\n\nNew paper: Our paper “Replay in minds and machines” is now out in Neuroscience & Biobehavioral Reviews. Joint work with Samson Chien, Sam Hall-McMaster and Nicolas W. Schuck. \n\n\n\n\nMar 2021\n\n\nNew paper: Our paper “Dynamics of fMRI patterns reflect sub-second activation sequences and reveal replay in human visual cortex” is now out in Nature Communications. Joint work with Nicolas W. Schuck. \n\n\n\n\nNov 2020\n\n\nNew workshop: Together with Adina Wagner, I gave a workshop “Research Data Management with DataLad” for doctoral researchers at the Max Planck Institute for Human Development, Berlin, Germany. \n\n\n\n\nJul 2019\n\n\nNew talk: I gave a talk “Introduction to fMRIPrep” in the lab of Christian Doeller with participants from the Max Planck Institute for Human Cognitive and Brain Sciences, the Kavli Institute for Systems Neuroscience and Donders Institute for Brain, Cognition and Behaviour. \n\n\n\n\nDec 2018\n\n\nNew paper: Our paper “Repetitive transcranial magnetic stimulation over dorsolateral prefrontal cortex modulates value-based learning during sequential decision-making” is now out in NeuroImage. Joint work with Ben Eppinger, Lea M. Bartsch, Franka Thurm, Franziska M. Korb and Shu-Chen Li. \n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "docs/index.html",
+    "href": "docs/index.html",
+    "title": "Docs",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Modified - Oldest\n        \n         \n          Modified - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nHow to use the University of Hamburg’s Object Storage as a DataLad special remote\n\n\n\nObject Storage\n\n\nDataLad\n\n\nResearch Data Management\n\n\n\n\n\n\nSeptember 11, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "docs/index.html#resources",
+    "href": "docs/index.html#resources",
+    "title": "Docs",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Modified - Oldest\n        \n         \n          Modified - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nHow to use the University of Hamburg’s Object Storage as a DataLad special remote\n\n\n\nObject Storage\n\n\nDataLad\n\n\nResearch Data Management\n\n\n\n\n\n\nSeptember 11, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "docs/resources/uhh-object-storage.html",
+    "href": "docs/resources/uhh-object-storage.html",
+    "title": "Datalad x UHH Object Storage",
+    "section": "",
+    "text": "Object Storage website"
+  },
+  {
+    "objectID": "docs/resources/uhh-object-storage.html#about",
+    "href": "docs/resources/uhh-object-storage.html#about",
+    "title": "Datalad x UHH Object Storage",
+    "section": "About",
+    "text": "About\n\n❓ What: An Object Storage. Like Amazon S3 but by Cloudian.\n💡 Purpose: For example, configure the object storage as a DataLad special remote\n🔑 Access: Send an email to the RRZ-ServiceLine\n DataLad Handbook: “Walk-through: Amazon S3 as a special remote”\n📚 LZS documentation documents\n\n“LZS - First Steps” (in German 🇩🇪)\n“LZS S3 Identity And Access Management” (in German 🇩🇪)\n“Cloudian AWS CLI Guide” (in English 🇺🇸)"
+  },
+  {
+    "objectID": "docs/resources/uhh-object-storage.html#uhh-object-storage-as-a-datalad-special-remote",
+    "href": "docs/resources/uhh-object-storage.html#uhh-object-storage-as-a-datalad-special-remote",
+    "title": "Datalad x UHH Object Storage",
+    "section": "UHH Object Storage as a DataLad special remote",
+    "text": "UHH Object Storage as a DataLad special remote\nThis section describes how to use the UHH Object Storage as a DataLad special remote.\n\n\n\n\n\n\nInstructions may be incomplete!\n\n\n\nThe instructions below so far only document deviations from the DataLad Handbook walk-through “Amazon S3 as a special remote”\n\n\n\nFollow the walk-through “Amazon S3 as a special remote” in the DataLad Handbook\nUse the following command when initializing the S3 special remote:\n\n\n\nCode\ngit annex initremote public-s3 type=S3 encryption=none \\\nbucket=$BUCKET public=yes datacenter=EU \\\nhost=s3-uhh.lzs.uni-hamburg.de protocol=https port=443 autoenable=true\n\n\n\nUse the following command when auto-enabling the S3 special remote:\n\n\n\nCode\ngit annex enableremote public-s3 \\\npublicurl=\"https://$BUCKET.s3-uhh.lzs.uni-hamburg.de\"\n\n\n\n🔗 Links\n\nhttps://git-annex.branchable.com/special_remotes/S3/\nhttps://git-annex.branchable.com/tips/public_Amazon_S3_remote/\n\n\n\n\n\n\n\nDetails about the object- / long-term storage (LZS)\n\n\n\n\n\nText copied from the LZS documentation on 10th of January (highlights added):\n\nThe RRZ operates a highly scalable object storage under the name Object / Long Term Storage (LZS). It complements the file service UHHDisk and the Central Storage Infrastructure ZSI to meet the constantly growing demand for storage space for data from science and research.\n\n\nThe LZS is suitable for, among others, the following purposes:\n\n\nBackend for file services\nBackend for archiving solutions\nBackend for research data management or CMS\nBackend for the delivery of multimedia files\nStorage of measurement data or results from simulation calculations\nStorage of larger collections of photos, films or digitized books\nOn-premise cloud storage for scientific collaborations as a secure and affordable alternative to Amazon Simple Storage Service (S3)\n\n\nThe target group of the LZS are systems that speak S3 natively and have to store larger amounts of data at a low rate of data change. With UHHDisk, the RRZ offers a suitable platform for storing files, e.g. for home drives or project directories.\n\n\nDue to the system architecture and configuration, the LZS is not suitable for use in structured data (backend for databases) or virtualization environments. For this the RRZ offers a suitable service with the central storage infrastructure (ZSI).\n\n\nFor further questions about the S3 object and long-term storage, please send an e-mail to the RRZ-ServiceLine.\n\n\n\n\n\n\n\n\n\n\nTechnical details of the LSZ\n\n\n\n\n\n\nObject Storage System: Cloudian HyperStore Object Storage\nCloudian guarantees 99% compatibility to Amazon S3"
+  },
+  {
+    "objectID": "research/wittkuhn2021nc.html",
+    "href": "research/wittkuhn2021nc.html",
+    "title": "Dynamics of fMRI patterns reflect sub-second activation sequences and reveal replay in human visual cortex",
+    "section": "",
+    "text": "URL\n  \n  \n    \n     PDF\n  \n  \n      Preprint\n  \n  \n    \n     Code + Data\n  \n  \n    \n     Thread\n  \n  \n      Altmetric\n  \n  \n      Google Scholar"
+  },
+  {
+    "objectID": "research/wittkuhn2021nc.html#abstract",
+    "href": "research/wittkuhn2021nc.html#abstract",
+    "title": "Dynamics of fMRI patterns reflect sub-second activation sequences and reveal replay in human visual cortex",
+    "section": "Abstract",
+    "text": "Abstract\n\nNeural computations are often fast and anatomically localized. Yet, investigating such computations in humans is challenging because non-invasive methods have either high temporal or spatial resolution, but not both. Of particular relevance, fast neural replay is known to occur throughout the brain in a coordinated fashion about which little is known. We develop a multivariate analysis method for functional magnetic resonance imaging that makes it possible to study sequentially activated neural patterns separated by less than 100 ms with precise spatial resolution. Human participants viewed five images individually and sequentially with speeds up to 32 ms between items. Probabilistic pattern classifiers were trained on activation patterns in visual and ventrotemporal cortex during individual image trials. Applied to sequence trials, probabilistic classifier time courses allow the detection of neural representations and their order. Order detection remains possible at speeds up to 32 ms between items (plus 100 ms per item). The frequency spectrum of the sequentiality metric distinguishes between sub- versus supra-second sequences. Importantly, applied to resting-state data our method reveals fast replay of task-related stimuli in visual cortex. This indicates that non-hippocampal replay occurs even after tasks without memory requirements and shows that our method can be used to detect such spontaneously occurring replay."
+  },
+  {
+    "objectID": "research/wittkuhn2021nc.html#citation",
+    "href": "research/wittkuhn2021nc.html#citation",
+    "title": "Dynamics of fMRI patterns reflect sub-second activation sequences and reveal replay in human visual cortex",
+    "section": "Citation",
+    "text": "Citation\n\n\nWittkuhn, L., & Schuck, N. W. (2021). Dynamics of fMRI patterns reflect sub-second activation sequences and reveal replay in human visual cortex. Nature Communications, 12(1). https://doi.org/10.1038/s41467-021-21970-2"
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Replay in the human visual cortex during brief task pauses is linked to implicit learning of successor representations\n\n\nPNAS\n\n\n\nreplay\n\n\nstatistical learning\n\n\nsuccessor representation\n\n\nfMRI\n\n\nmachine learning\n\n\nPaper\n\n\n\n\n\n\n2025\n\n\nLennart Wittkuhn, Lena M. Krippner, Christoph Koch, Nicolas W. Schuck\n\n\n\n\n\n\n\nEntorhinal cortex signals dimensions of past experience that can be generalised in a novel environment\n\n\nbioRxiv\n\n\n\nGeneralization\n\n\nEntorhinal Cortex\n\n\nNeural Similarity\n\n\nSequential Learning\n\n\nPaper\n\n\n\n\n\n\n2025\n\n\nSam Hall-McMaster, Lennart Wittkuhn, Luianta Verra, Noa L. Hedrich, Kazuki Irie, Peter Dayan, Samuel J. Gershman, Nicolas W. Schuck\n\n\n\n\n\n\n\nChallenges in replay detection by TDLM in post-encoding resting state\n\n\nbioRxiv\n\n\n\nreplay\n\n\nTDLM\n\n\nMEG\n\n\nmachine learning\n\n\nPaper\n\n\n\n\n\n\n2025\n\n\nSimon Kern, Juliane Nagel, Lennart Wittkuhn, Steffen Gais, Ray Dolan, Gordon Feld\n\n\n\n\n\n\n\nReplay in minds and machines\n\n\nNeuroscience & Biobehavioral Reviews\n\n\n\nreplay\n\n\nmachine learning\n\n\nreinforcement learning\n\n\nneural networks\n\n\nartificial intelligence\n\n\nPaper\n\n\n\n\n\n\n2021\n\n\nLennart Wittkuhn, Samson Chien, Sam Hall-McMaster, Nicolas W. Schuck\n\n\n\n\n\n\n\nDynamics of fMRI patterns reflect sub-second activation sequences and reveal replay in human visual cortex\n\n\nNature Communications\n\n\n\nreplay\n\n\nfMRI\n\n\ndecoding\n\n\nmachine learning\n\n\nPaper\n\n\n\n\n\n\n2021\n\n\nLennart Wittkuhn, Nicolas W. Schuck\n\n\n\n\n\n\n\nRepetitive transcranial magnetic stimulation over dorsolateral prefrontal cortex modulates value-based learning during sequential decision-making\n\n\nNeuroImage\n\n\n\nrTMS\n\n\ndlPFC\n\n\nvalue-based learning\n\n\ndecision-making\n\n\nPaper\n\n\n\n\n\n\n2018\n\n\nLennart Wittkuhn, Ben Eppinger, Lea M. Bartsch, Franka Thurm, Franziska M. Korb, Shu-Chen Li\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "research/wittkuhn2024b.html",
@@ -490,179 +672,25 @@
     "text": "Related work\n\n\n\n\n\n\n\n\n\n\nImplicit learning of successor representations is related to backward replay in visual cortex\n\n\n“Psychology and Brain / Psychologie und Gehirn (PuG)” 2024 conference in Hamburg, Germany\n\n\n\nreplay\n\n\nstatistical learning\n\n\nsuccessor representation\n\n\nfMRI\n\n\nmachine learning\n\n\nTalk\n\n\n\n 1.5 h  Local  ~ 400 attendees \n\n\n\n\n\nMay 30, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "research/index.html",
-    "href": "research/index.html",
-    "title": "Publications",
+    "objectID": "research/wittkuhn2022b.html",
+    "href": "research/wittkuhn2022b.html",
+    "title": "Statistical learning of successor representations is related to on-task replay",
     "section": "",
-    "text": "Replay in the human visual cortex during brief task pauses is linked to implicit learning of successor representations\n\n\nPNAS\n\n\n\nreplay\n\n\nstatistical learning\n\n\nsuccessor representation\n\n\nfMRI\n\n\nmachine learning\n\n\nPaper\n\n\n\n\n\n\n2025\n\n\nLennart Wittkuhn, Lena M. Krippner, Christoph Koch, Nicolas W. Schuck\n\n\n\n\n\n\n\nChallenges in replay detection by TDLM in post-encoding resting state\n\n\nbioRxiv\n\n\n\nreplay\n\n\nTDLM\n\n\nMEG\n\n\nmachine learning\n\n\nPaper\n\n\n\n\n\n\n2025\n\n\nSimon Kern, Juliane Nagel, Lennart Wittkuhn, Steffen Gais, Ray Dolan, Gordon Feld\n\n\n\n\n\n\n\nReplay in minds and machines\n\n\nNeuroscience & Biobehavioral Reviews\n\n\n\nreplay\n\n\nmachine learning\n\n\nreinforcement learning\n\n\nneural networks\n\n\nartificial intelligence\n\n\nPaper\n\n\n\n\n\n\n2021\n\n\nLennart Wittkuhn, Samson Chien, Sam Hall-McMaster, Nicolas W. Schuck\n\n\n\n\n\n\n\nDynamics of fMRI patterns reflect sub-second activation sequences and reveal replay in human visual cortex\n\n\nNature Communications\n\n\n\nreplay\n\n\nfMRI\n\n\ndecoding\n\n\nmachine learning\n\n\nPaper\n\n\n\n\n\n\n2021\n\n\nLennart Wittkuhn, Nicolas W. Schuck\n\n\n\n\n\n\n\nRepetitive transcranial magnetic stimulation over dorsolateral prefrontal cortex modulates value-based learning during sequential decision-making\n\n\nNeuroImage\n\n\n\nrTMS\n\n\ndlPFC\n\n\nvalue-based learning\n\n\ndecision-making\n\n\nPaper\n\n\n\n\n\n\n2018\n\n\nLennart Wittkuhn, Ben Eppinger, Lea M. Bartsch, Franka Thurm, Franziska M. Korb, Shu-Chen Li\n\n\n\n\n\n\nNo matching items"
+    "text": "Preprint\n  \n  \n    \n     PDF\n  \n  \n      Altmetric\n  \n  \n      Google Scholar"
   },
   {
-    "objectID": "research/wittkuhn2021nc.html",
-    "href": "research/wittkuhn2021nc.html",
-    "title": "Dynamics of fMRI patterns reflect sub-second activation sequences and reveal replay in human visual cortex",
-    "section": "",
-    "text": "URL\n  \n  \n    \n     PDF\n  \n  \n      Preprint\n  \n  \n    \n     Code + Data\n  \n  \n    \n     Thread\n  \n  \n      Altmetric\n  \n  \n      Google Scholar"
-  },
-  {
-    "objectID": "research/wittkuhn2021nc.html#abstract",
-    "href": "research/wittkuhn2021nc.html#abstract",
-    "title": "Dynamics of fMRI patterns reflect sub-second activation sequences and reveal replay in human visual cortex",
+    "objectID": "research/wittkuhn2022b.html#abstract",
+    "href": "research/wittkuhn2022b.html#abstract",
+    "title": "Statistical learning of successor representations is related to on-task replay",
     "section": "Abstract",
-    "text": "Abstract\n\nNeural computations are often fast and anatomically localized. Yet, investigating such computations in humans is challenging because non-invasive methods have either high temporal or spatial resolution, but not both. Of particular relevance, fast neural replay is known to occur throughout the brain in a coordinated fashion about which little is known. We develop a multivariate analysis method for functional magnetic resonance imaging that makes it possible to study sequentially activated neural patterns separated by less than 100 ms with precise spatial resolution. Human participants viewed five images individually and sequentially with speeds up to 32 ms between items. Probabilistic pattern classifiers were trained on activation patterns in visual and ventrotemporal cortex during individual image trials. Applied to sequence trials, probabilistic classifier time courses allow the detection of neural representations and their order. Order detection remains possible at speeds up to 32 ms between items (plus 100 ms per item). The frequency spectrum of the sequentiality metric distinguishes between sub- versus supra-second sequences. Importantly, applied to resting-state data our method reveals fast replay of task-related stimuli in visual cortex. This indicates that non-hippocampal replay occurs even after tasks without memory requirements and shows that our method can be used to detect such spontaneously occurring replay."
+    "text": "Abstract\n\nHumans automatically infer higher-order relationships between events in the environment from their statistical co-occurrence, often without conscious awareness. Neural replay of task representations, which has been described as sampling from a learned transition structure of the environment, is a candidate mechanism by which the brain could use or even learn such relational information in the service of adaptive behavior. Human participants viewed sequences of images that followed probabilistic transitions determined by ring-like graph structures. Behavioral modeling revealed that participants acquired multi-step transition knowledge through gradual updating of an internal successor representation (SR) model, although half of participants did not indicate any knowledge about the sequential task structure. To investigate neural replay, we analyzed dynamics of multivariate functional magnetic resonance imaging (fMRI) patterns during short pauses from the ongoing statistical learning task. Evidence for sequential replay consistent with the probabilistic task structure was found in occipito-temporal and sensorimotor cortices during short on-task intervals. These findings indicate that implicit learning of higher-order relationships establishes an internal SR-based map of the task, and is accompanied by cortical on-task replay."
   },
   {
-    "objectID": "research/wittkuhn2021nc.html#citation",
-    "href": "research/wittkuhn2021nc.html#citation",
-    "title": "Dynamics of fMRI patterns reflect sub-second activation sequences and reveal replay in human visual cortex",
+    "objectID": "research/wittkuhn2022b.html#citation",
+    "href": "research/wittkuhn2022b.html#citation",
+    "title": "Statistical learning of successor representations is related to on-task replay",
     "section": "Citation",
-    "text": "Citation\n\n\nWittkuhn, L., & Schuck, N. W. (2021). Dynamics of fMRI patterns reflect sub-second activation sequences and reveal replay in human visual cortex. Nature Communications, 12(1). https://doi.org/10.1038/s41467-021-21970-2"
-  },
-  {
-    "objectID": "docs/resources/uhh-object-storage.html",
-    "href": "docs/resources/uhh-object-storage.html",
-    "title": "Datalad x UHH Object Storage",
-    "section": "",
-    "text": "Object Storage website"
-  },
-  {
-    "objectID": "docs/resources/uhh-object-storage.html#about",
-    "href": "docs/resources/uhh-object-storage.html#about",
-    "title": "Datalad x UHH Object Storage",
-    "section": "About",
-    "text": "About\n\n❓ What: An Object Storage. Like Amazon S3 but by Cloudian.\n💡 Purpose: For example, configure the object storage as a DataLad special remote\n🔑 Access: Send an email to the RRZ-ServiceLine\n DataLad Handbook: “Walk-through: Amazon S3 as a special remote”\n📚 LZS documentation documents\n\n“LZS - First Steps” (in German 🇩🇪)\n“LZS S3 Identity And Access Management” (in German 🇩🇪)\n“Cloudian AWS CLI Guide” (in English 🇺🇸)"
-  },
-  {
-    "objectID": "docs/resources/uhh-object-storage.html#uhh-object-storage-as-a-datalad-special-remote",
-    "href": "docs/resources/uhh-object-storage.html#uhh-object-storage-as-a-datalad-special-remote",
-    "title": "Datalad x UHH Object Storage",
-    "section": "UHH Object Storage as a DataLad special remote",
-    "text": "UHH Object Storage as a DataLad special remote\nThis section describes how to use the UHH Object Storage as a DataLad special remote.\n\n\n\n\n\n\nInstructions may be incomplete!\n\n\n\nThe instructions below so far only document deviations from the DataLad Handbook walk-through “Amazon S3 as a special remote”\n\n\n\nFollow the walk-through “Amazon S3 as a special remote” in the DataLad Handbook\nUse the following command when initializing the S3 special remote:\n\n\n\nCode\ngit annex initremote public-s3 type=S3 encryption=none \\\nbucket=$BUCKET public=yes datacenter=EU \\\nhost=s3-uhh.lzs.uni-hamburg.de protocol=https port=443 autoenable=true\n\n\n\nUse the following command when auto-enabling the S3 special remote:\n\n\n\nCode\ngit annex enableremote public-s3 \\\npublicurl=\"https://$BUCKET.s3-uhh.lzs.uni-hamburg.de\"\n\n\n\n🔗 Links\n\nhttps://git-annex.branchable.com/special_remotes/S3/\nhttps://git-annex.branchable.com/tips/public_Amazon_S3_remote/\n\n\n\n\n\n\n\nDetails about the object- / long-term storage (LZS)\n\n\n\n\n\nText copied from the LZS documentation on 10th of January (highlights added):\n\nThe RRZ operates a highly scalable object storage under the name Object / Long Term Storage (LZS). It complements the file service UHHDisk and the Central Storage Infrastructure ZSI to meet the constantly growing demand for storage space for data from science and research.\n\n\nThe LZS is suitable for, among others, the following purposes:\n\n\nBackend for file services\nBackend for archiving solutions\nBackend for research data management or CMS\nBackend for the delivery of multimedia files\nStorage of measurement data or results from simulation calculations\nStorage of larger collections of photos, films or digitized books\nOn-premise cloud storage for scientific collaborations as a secure and affordable alternative to Amazon Simple Storage Service (S3)\n\n\nThe target group of the LZS are systems that speak S3 natively and have to store larger amounts of data at a low rate of data change. With UHHDisk, the RRZ offers a suitable platform for storing files, e.g. for home drives or project directories.\n\n\nDue to the system architecture and configuration, the LZS is not suitable for use in structured data (backend for databases) or virtualization environments. For this the RRZ offers a suitable service with the central storage infrastructure (ZSI).\n\n\nFor further questions about the S3 object and long-term storage, please send an e-mail to the RRZ-ServiceLine.\n\n\n\n\n\n\n\n\n\n\nTechnical details of the LSZ\n\n\n\n\n\n\nObject Storage System: Cloudian HyperStore Object Storage\nCloudian guarantees 99% compatibility to Amazon S3"
-  },
-  {
-    "objectID": "docs/index.html",
-    "href": "docs/index.html",
-    "title": "Docs",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Modified - Oldest\n        \n         \n          Modified - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nHow to use the University of Hamburg’s Object Storage as a DataLad special remote\n\n\n\nObject Storage\n\n\nDataLad\n\n\nResearch Data Management\n\n\n\n\n\n\nSeptember 5, 2025\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "docs/index.html#resources",
-    "href": "docs/index.html#resources",
-    "title": "Docs",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Modified - Oldest\n        \n         \n          Modified - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nHow to use the University of Hamburg’s Object Storage as a DataLad special remote\n\n\n\nObject Storage\n\n\nDataLad\n\n\nResearch Data Management\n\n\n\n\n\n\nSeptember 5, 2025\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "news/index.html",
-    "href": "news/index.html",
-    "title": "News",
-    "section": "",
-    "text": "Filter: All / Papers / Talks / Courses / Grants & Awards\n\n\n\n\n\nWhen?\n\n\nWhat?\n\n\n\n\n\n\nAug 2025\n\n\nNew paper: Our paper “Replay in the human visual cortex during brief task pauses is linked to implicit learning of successor representations” is now out in PNAS. Joint work with Lena Krippner, Christoph Koch and Nico Schuck. \n\n\n\n\nJul 2025\n\n\nNew course: I gave a full-day course “Track, organize and share your work: Version control of code & data with Git & DataLad” at the DFG Priority Program AUDICTIVE! In this hands-on course with practical exercises, 15 researchers learned effective version control and collaboration with Git and DataLad. \n\n\n\n\nJun 2025\n\n\nNew preprint: Our preprint “Challenges in replay detection by TDLM in post-encoding resting state” is now out on bioRxiv. Work led by Simon Kern, to which I was glad to contribute. \n\n\n\n\nMar 2025\n\n\nNew course: I gave another full-day course “Track, organize and share your work: An introduction to Git for research” at the Max Planck Institute for Human Development, Berlin, Germany! In this hands-on course with practical exercises, 8 doctoral researchers and research support staff learned effective version control and collaboration with Git. \n\n\n\n\nFeb 2025\n\n\nNew talk: I gave a talk about “Reproducible Research Data Management with DataLad” at the Mannheim Open Science Meetup of the University of Mannheim, Germany. \n\n\n\n\nFeb 2025\n\n\nNew award: I received the Teaching Award Psychology 2024 for my course “Track organize and share your work: An introduction to Git for research”. \n\n\n\n\nJan 2025\n\n\nNew course: We completed our full-semester course “An introduction to Git for psychological research” at University of Hamburg and Erasmus University Rotterdam! In this international teaching project, 27 PhD & MSc Psychology students from two universities learned how to track, organize and share their work using Git. \n\n\n\n\nJan 2025\n\n\nNew course: I gave a 3-day course “Track, organize and share your work: An introduction to Git for research” at the Central Institute of Mental Health (ZI), Mannheim, Germany! In this hands-on course with practical exercises, 35 early-career researchers learned effective version control and collaboration with Git. \n\n\n\n\nNov 2024\n\n\nNew talk: I gave a talk about “Reproducible Research Data Management with DataLad” at the Joint Lab Meeting (Gluth, Schuck & Schwabe Labs) at University of Hamburg, Germany. \n\n\n\n\nNov 2024\n\n\nNew interview: I gave an interview (in German) about our course “Version Control with Git” as part of the series “Spotlight: Data Literacy Lehrlabor” at University of Hamburg, Germany. \n\n\n\n\nNov 2024\n\n\nNew talk: I gave a talk about “Castellum at University of Hamburg” at the 2nd “Castellum Community Meeting” at the Max Planck Institute for Human Development, Berlin, Germany. \n\n\n\n\nSep 2024\n\n\nNew course: I gave a full-day course “Track, organize and share your work: An introduction to Git for research” at the Cognitive Modelling & Decision Neuroscience Lab at University of Hamburg, Germany! In this hands-on course with practical exercises, (post)doctoral researchers learned effective version control and collaboration with Git. \n\n\n\n\nJul 2024\n\n\nUpdated preprint: Our preprint “Replay in human visual cortex is linked to the formation of successor representations and independent of consciousness” is now updated on bioRxiv. Joint work with Lena M. Krippner, Christoph Koch and Nicolas W. Schuck. \n\n\n\n\nJun 2024\n\n\nNew course: I gave a full-day course “Track, organize and share your work: An introduction to Git for research” at the Max Planck Institute for Human Development, Berlin, Germany! In this hands-on course with practical exercises, 10 doctoral researchers and research support staff learned effective version control and collaboration with Git. \n\n\n\n\nMay 2024\n\n\nNew poster: Together with Konrad Pagenstedt, I gave a poster presentation about our full-semester course about Git for scientists titled “Version Control of Code and Data” at the “Psychology and Brain / Psychologie und Gehirn (PuG)” 2024 conference in Hamburg, Germany. \n\n\n\n\nMay 2024\n\n\nNew poster: I gave a poster presentation about our updated preprint titled “Implicit learning of successor representations is related to backward replay in visual cortex” at the “Psychology and Brain / Psychologie und Gehirn (PuG)” 2024 conference in Hamburg, Germany. \n\n\n\n\nMay 2024\n\n\nNew grant: I received ~40,000 Euro from the Digital and Data Literacy in Teaching Lab (DDLitLab) program at University of Hamburg to establish a “Cross-Disciplinary Teaching Lab (CDTL)” course on digital research skills. \n\n\n\n\nMay 2024\n\n\nNew grant: I received 10,000 Euro from the “Claussen-Simon Fund for Science & Higher Education 2024” by the Claussen Simon Foundation to implement FAIR and reproducible teaching at Universität Hamburg. \n\n\n\n\nApr 2024\n\n\nNew course: Our new full-semester course “An introduction to Git for psychological research” started at University of Hamburg! In this hands-on course with practical exercises, 24 MSc Psychology students will learn how to track, organize and share their work using Git. \n\n\n\n\nMar 2024\n\n\nNew talk: I gave a talk about “Reproducible Research Data Management with DataLad” at “6th RDM-Workshop 2024 on Research Data Management in the Max Planck Society” at the Max Planck Institute for Astronomy, Heidelberg, Germany. \n\n\n\n\nMar 2024\n\n\nNew grant: Together with Dr. Ana Martinovici from Erasmus University Rotterdam, I received ~10,000 Euro from the International Teaching and Learning Formats (ILLF@home) program to establish an international teaching project on “Version Control of Code & Data with Git”. \n\n\n\n\nMar 2024\n\n\nNew poster & talk: Together with Konrad Pagenstedt, I gave a poster presentation and short talk about our full-semester course about Git for scientists titled “Version Control of Code and Data” at the “Digital and Data Literacy in Teaching Lab (DDLitLab)” closing event at University of Hamburg, Germany. \n\n\n\n\nDec 2023\n\n\nNew workshop: Together with Konrad Pagenstedt, I gave a workshop “Introduction to Quarto” for Psychology MSc students and doctoral researchers at the University of Hamburg, Germany. \n\n\n\n\nOct 2023\n\n\nNew course: Our new full-semester course “An Introduction to Version Control of Code and Data” started at University of Hamburg! In this hands-on course with practical exercises, 6 MSc & PhD Psychology students will learn effective version control of code and data using Git. \n\n\n\n\nOct 2023\n\n\nNew talk: I gave a talk about “Science as distributed open-source knowledge development” at the “Digital Total” conference at University of Hamburg, Germany. \n\n\n\n\nSep 2023\n\n\nNew talk: I gave a talk about “Castellum at University of Hamburg” at the “Castellum Community Meeting” at the Max Planck Institute for Human Development, Berlin, Germany. \n\n\n\n\nAug 2023\n\n\nNew talk: Together with Esther Plomp, I gave a talk about “Reproducible & FAIR Teaching Materials” at the train-the-trainer program of the Digital Research Academy. \n\n\n\n\nMay 2023\n\n\nNew talk: I gave a talk about our full-semester course on “Version Control of code and data using Git and DataLad” at the symposium on “Reproducible Research: Education and Teaching Formats Reports from the Reproducibility Networks” at BIH QUEST Center for Responsible Research, Berlin, Germany. \n\n\n\n\nDec 2022\n\n\nNew grant: Together with Nicolas Schuck, I received ~50,000 Euro from the Digital and Data Literacy in Teaching Lab (DDLitLab) program at University of Hamburg to establish a course on “Version Control of Code & Data with Git and DataLad”. \n\n\n\n\nFeb 2022\n\n\nNew preprint: Our preprint “Statistical learning of successor representations is related to on-task replay” is now out on bioRxiv. Joint work with Lena M. Krippner and Nicolas W. Schuck. \n\n\n\n\nAug 2021\n\n\nNew paper: Our paper “Replay in minds and machines” is now out in Neuroscience & Biobehavioral Reviews. Joint work with Samson Chien, Sam Hall-McMaster and Nicolas W. Schuck. \n\n\n\n\nMar 2021\n\n\nNew paper: Our paper “Dynamics of fMRI patterns reflect sub-second activation sequences and reveal replay in human visual cortex” is now out in Nature Communications. Joint work with Nicolas W. Schuck. \n\n\n\n\nNov 2020\n\n\nNew workshop: Together with Adina Wagner, I gave a workshop “Research Data Management with DataLad” for doctoral researchers at the Max Planck Institute for Human Development, Berlin, Germany. \n\n\n\n\nJul 2019\n\n\nNew talk: I gave a talk “Introduction to fMRIPrep” in the lab of Christian Doeller with participants from the Max Planck Institute for Human Cognitive and Brain Sciences, the Kavli Institute for Systems Neuroscience and Donders Institute for Brain, Cognition and Behaviour. \n\n\n\n\nDec 2018\n\n\nNew paper: Our paper “Repetitive transcranial magnetic stimulation over dorsolateral prefrontal cortex modulates value-based learning during sequential decision-making” is now out in NeuroImage. Joint work with Ben Eppinger, Lea M. Bartsch, Franka Thurm, Franziska M. Korb and Shu-Chen Li. \n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "acknowledgements.html",
-    "href": "acknowledgements.html",
-    "title": "Acknowledgements & Attribution",
-    "section": "",
-    "text": "This website was made with 💜 and Quarto.\nThe source code for this website can be found on GitHub .\n\n\n\nThis website uses the Atkinson Hyperlegible font. Copyright © 2020, Braille Institute of America, Inc., https://www.brailleinstitute.org/freefont with Reserved Typeface Name Atkinson Hyperlegible Font. Details of the license can be found here.\n\n\n\nAll code for this website is licensed under CC BY 4.0.\n\n\n\nDid you spot an error? Is there an issue with the website? Do you have feedback, questions or comments? I would love to hear from you! Open an issue on GitHub or write an email.\n\n\n    \n\n\nDr. Lennart Wittkuhn Von-Melle-Park 5, 20146 Hamburg, Germany +49 040-42838 5346 lennart.wittkuhn@tutanota.com"
-  },
-  {
-    "objectID": "acknowledgements.html#website",
-    "href": "acknowledgements.html#website",
-    "title": "Acknowledgements & Attribution",
-    "section": "",
-    "text": "This website was made with 💜 and Quarto.\nThe source code for this website can be found on GitHub .\n\n\n\nThis website uses the Atkinson Hyperlegible font. Copyright © 2020, Braille Institute of America, Inc., https://www.brailleinstitute.org/freefont with Reserved Typeface Name Atkinson Hyperlegible Font. Details of the license can be found here.\n\n\n\nAll code for this website is licensed under CC BY 4.0.\n\n\n\nDid you spot an error? Is there an issue with the website? Do you have feedback, questions or comments? I would love to hear from you! Open an issue on GitHub or write an email.\n\n\n    \n\n\nDr. Lennart Wittkuhn Von-Melle-Park 5, 20146 Hamburg, Germany +49 040-42838 5346 lennart.wittkuhn@tutanota.com"
-  },
-  {
-    "objectID": "acknowledgements.html#inspiration",
-    "href": "acknowledgements.html#inspiration",
-    "title": "Acknowledgements & Attribution",
-    "section": "Inspiration",
-    "text": "Inspiration\n\n\n\n\n\nAuthors\nDescription\nWebsite\nSource\nLicense\n\n\n\n\nAndrew Heiss\nPersonal website\n\n\n\n\n\nBeatriz Milz\nBlog\n\n\n\n\n\nDanielle Navarro\nBlog\n\n\n\n\n\nDrew Dimmerey\nPersonal website\n\n\nn/a\n\n\nJadey Ryan\nPersonal website\n\n\n\n\n\nMine Çetinkaya-Rundel & Julia Stewart Lowndes\nBlog\n\n\nn/a\n\n\nOndřej Zíka\nPersonal website\n\n\nn/a\n\n\nSamantha Csik\nPersonal website\n\n\nn/a\n\n\nTermeh Shafie\nPersonal website\n\n\n\n\n\n\n\n\nThank you for sharing your code! 🙏"
-  },
-  {
-    "objectID": "docs/til/r-list-names.html",
-    "href": "docs/til/r-list-names.html",
-    "title": "Accessing list elements in R by name",
-    "section": "",
-    "text": "Let’s create a list mylist with two elements, mylist$frequency and mylist$amplitude.\n\n\nCode\nmylist &lt;- list()\nmylist$frequency &lt;- 0.193\nmylist$amplitude &lt;- 0.603\n\n\nIf we want to see the value of mylist$frequency, we can do this:\n\n\nCode\nmylist$frequency\n\n\n[1] 0.193\n\n\nBut we can also do this:\n\n\nCode\nmylist$fre\n\n\n[1] 0.193\n\n\nWe now add another element to the list called mylist$freestyle.\nNote, that freestyle also starts with the letters fre!\n\n\nCode\nmylist$freestyle = 0.479\n\n\nNow we can’t do this anymore:\n\n\nCode\nmylist$fre\n\n\nNULL"
-  },
-  {
-    "objectID": "research/wittkuhn2018n.html",
-    "href": "research/wittkuhn2018n.html",
-    "title": "Repetitive transcranial magnetic stimulation over dorsolateral prefrontal cortex modulates value-based learning during sequential decision-making",
-    "section": "",
-    "text": "URL"
-  },
-  {
-    "objectID": "research/wittkuhn2018n.html#abstract",
-    "href": "research/wittkuhn2018n.html#abstract",
-    "title": "Repetitive transcranial magnetic stimulation over dorsolateral prefrontal cortex modulates value-based learning during sequential decision-making",
-    "section": "Abstract",
-    "text": "Abstract\n\nAdaptive behavior in daily life often requires the ability to acquire and represent sequential contingencies between actions and the associated outcomes. Although accumulating evidence implicates the role of dorsolateral prefrontal cortex (dlPFC) in complex value-based learning and decision-making, direct evidence for involvements of this region in integrating information across sequential decision states is still scarce. Using a 3-stage deterministic Markov decision task, here we applied offline, inhibitory low-frequency 1-Hz repetitive transcranial magnetic stimulation (rTMS) over the left dlPFC in young male adults (n = 31, mean age = 23.8 years, SD = 2.5 years) in a within-subject cross-over design to study the roles of this region in influencing value-based sequential decision-making. In two separate sessions, each participant received 1-Hz rTMS stimulation either over the left dlPFC or over the vertex. The results showed that transiently inhibiting the left dlPFC impaired choice accuracy, particularly in situations in which the acquisition of sequential transitions between decision states and temporally lagged action-outcome contingencies played a greater role. Estimating parameters of a diffusion model from behavioral choices, we found that the diffusion drift rate, which reflects the efficiency of information integration, was attenuated by the stimulation. Moreover, the effects of rTMS interacted with session: individuals who could not efficiently integrate information across sequential states in the first session due to disrupted dlPFC function also could not catch up in performance during the second session with those individuals who could learn sequential transitions with intact dlPFC function in the first session. Taken together, our findings suggest that the left dlPFC is crucially involved in the acquisition of complex sequential relations and in the potential of such learning."
-  },
-  {
-    "objectID": "research/wittkuhn2018n.html#citation",
-    "href": "research/wittkuhn2018n.html#citation",
-    "title": "Repetitive transcranial magnetic stimulation over dorsolateral prefrontal cortex modulates value-based learning during sequential decision-making",
-    "section": "Citation",
-    "text": "Citation\n\n\nWittkuhn, L., Eppinger, B., Bartsch, L. M., Thurm, F., Korb, F. M., & Li, S.-C. (2018). Repetitive transcranial magnetic stimulation over dorsolateral prefrontal cortex modulates value-based learning during sequential decision-making. NeuroImage, 167, 384–395. https://doi.org/10.1016/j.neuroimage.2017.11.057"
-  },
-  {
-    "objectID": "research/wittkuhn2025pnas.html",
-    "href": "research/wittkuhn2025pnas.html",
-    "title": "Replay in the human visual cortex during brief task pauses is linked to implicit learning of successor representations",
-    "section": "",
-    "text": "URL\n  \n  \n    \n     Data\n  \n  \n    \n     Code\n  \n  \n      Google Scholar"
-  },
-  {
-    "objectID": "research/wittkuhn2025pnas.html#abstract",
-    "href": "research/wittkuhn2025pnas.html#abstract",
-    "title": "Replay in the human visual cortex during brief task pauses is linked to implicit learning of successor representations",
-    "section": "Abstract",
-    "text": "Abstract\n\nHumans can implicitly learn about multistep sequential relationships between events in the environment from their statistical co-occurrence. Theoretical work has suggested that neural replay is a candidate mechanism that aids such learning. Here, we used functional MRI (fMRI) to test whether replay is related to implicit learning of higher-order sequential relationships. Human participants viewed sequences of images that followed probabilistic transitions determined by ring-like graph structures. Behavioral modeling of response times revealed that participants acquired multistep transition knowledge in a manner consistent with gradual updating of an internal successor representation (SR) model. Yet, half of participants did not report being aware of any sequential task structure, and most participants failed to provide meaningful transition probability ratings in a posttask test. Analyses of temporal dynamics of multivariate fMRI patterns during brief 10 s pauses from the ongoing statistical learning task indicated backward sequential replay of multistep sequences in visual cortical areas. Variations in model parameters between participants that captured response time patterns related to strength of neural replay. No corresponding relations between replay and measures of explicit awareness were found. These findings indicate that implicit learning of higher-order relationships establishes an internal SR-based map of the task and is accompanied by cortical on-task replay."
-  },
-  {
-    "objectID": "research/kern2025b.html",
-    "href": "research/kern2025b.html",
-    "title": "Challenges in replay detection by TDLM in post-encoding resting state",
-    "section": "",
-    "text": "Preprint\n  \n  \n    \n     PDF"
-  },
-  {
-    "objectID": "research/kern2025b.html#abstract",
-    "href": "research/kern2025b.html#abstract",
-    "title": "Challenges in replay detection by TDLM in post-encoding resting state",
-    "section": "Abstract",
-    "text": "Abstract\n\nWe investigated, using temporally delayed linear modelling (TDLM) and magnetoencephalography (MEG), whether items associated with an underlying graph structure are replayed during a post-learning resting state. In these same data, we have previously provided evidence for replay during on-line (non-rest) memory retrieval. Despite successful decoding of brain activity during a localizer task, and contrary to predictions, we did not detect evidence for replay during a post-learning resting state. To better understand this, we performed a hybrid simulation analysis in which we inserted synthetic replay events into a control resting state recorded prior to the actual experiment. This simulation revealed that replay detection using our current pipeline requires extremely high replay densities to reach significance (&gt;1 replay sequence per second, with “replay” defined as a sequence of reactivations within a certain time lag). Furthermore, when scaling the number of replay events with a behavioural measure we were unable to experimentally induce a strong correlation between sequenceness and this measure. We infer that even if replay was present at plausible rates in our resting state dataset we would lack statistical power to detect it with TDLM. We discuss ways for optimizing the analysis approach and how to find boundary conditions under which TDLM can be expected to detect replay successfully. We conclude that solving these methodological constraints is likely to be crucial to optimise measuring replay non-invasively using MEG in humans."
-  },
-  {
-    "objectID": "research/kern2025b.html#citation",
-    "href": "research/kern2025b.html#citation",
-    "title": "Challenges in replay detection by TDLM in post-encoding resting state",
-    "section": "Citation",
-    "text": "Citation\n\n\nKern, S., Nagel, J., Wittkuhn, L., Gais, S., Dolan, R. J., & Feld, G. B. (2025). Challenges in replay detection by TDLM in post-encoding resting state. http://dx.doi.org/10.1101/2025.06.11.658835"
-  },
-  {
-    "objectID": "research/wittkuhn2021nbr.html",
-    "href": "research/wittkuhn2021nbr.html",
-    "title": "Replay in minds and machines",
-    "section": "",
-    "text": "URL\n  \n  \n    \n     Postprint\n  \n  \n      Preprint\n  \n  \n    \n     Code\n  \n  \n    \n     Thread\n  \n  \n      Altmetric\n  \n  \n      Google Scholar"
-  },
-  {
-    "objectID": "research/wittkuhn2021nbr.html#abstract",
-    "href": "research/wittkuhn2021nbr.html#abstract",
-    "title": "Replay in minds and machines",
-    "section": "Abstract",
-    "text": "Abstract\n\nExperience-related brain activity patterns reactivate during sleep, wakeful rest, and brief pauses from active behavior. In parallel, machine learning research has found that experience replay can lead to substantial performance improvements in artificial agents. Together, these lines of research suggest that replay has a variety of computational benefits for decision-making and learning. Here, we provide an overview of putative computational functions of replay as suggested by machine learning and neuroscientific research. We show that replay can lead to faster learning, less forgetting, reorganization or augmentation of experiences, and support planning and generalization. In addition, we highlight the benefits of reactivating abstracted internal representations rather than veridical memories, and discuss how replay could provide a mechanism to build internal representations that improve learning and decision-making."
-  },
-  {
-    "objectID": "research/wittkuhn2021nbr.html#citation",
-    "href": "research/wittkuhn2021nbr.html#citation",
-    "title": "Replay in minds and machines",
-    "section": "Citation",
-    "text": "Citation\n\n\nWittkuhn, L., Chien, S., Hall-McMaster, S., & Schuck, N. W. (2021). Replay in minds and machines. Neuroscience & Biobehavioral Reviews, 129, 367–388. https://doi.org/10.1016/j.neubiorev.2021.08.002"
+    "text": "Citation\n\n\nWittkuhn, L., Krippner, L. M., & Schuck, N. W. (2022). Statistical learning of successor representations is related to on-task replay. bioRxiv. https://doi.org/10.1101/2022.02.02.478787"
   },
   {
     "objectID": "experience/job-mpib-postdoctoral-researcer.html",
