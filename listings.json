@@ -75,6 +75,7 @@
       "/education/edu-fub-phd-psych.html",
       "/education/edu-tud-msc-can.html",
       "/education/edu-tud-bsc-psych.html",
+      "/training/2025-10-30-training-version-control-jmu.html",
       "/training/2025-10-09-training-version-control-mpib.html",
       "/research/wittkuhn2025pnas.html",
       "/research/hall-mcmaster2025b.html",
@@ -123,6 +124,10 @@
     "items": []
   },
   {
+    "listing": "/training/2025-03-31-training-version-control-mpib.html",
+    "items": []
+  },
+  {
     "listing": "/consulting.html",
     "items": [
       "/portfolio/portfolio-bids.html",
@@ -131,6 +136,7 @@
       "/portfolio/portfolio-git.html",
       "/portfolio/portfolio-oer.html",
       "/portfolio/portfolio-quarto.html",
+      "/training/2025-10-30-training-version-control-jmu.html",
       "/training/2025-10-09-training-version-control-mpib.html",
       "/training/2025-07-08-training-version-control-audictive.html",
       "/training/2025-03-31-training-version-control-mpib.html",
@@ -161,10 +167,6 @@
     ]
   },
   {
-    "listing": "/training/2025-03-31-training-version-control-mpib.html",
-    "items": []
-  },
-  {
     "listing": "/training/2025-01-15-training-version-control-zi-mannheim.html",
     "items": []
   },
@@ -183,6 +185,7 @@
   {
     "listing": "/news/index.html",
     "items": [
+      "/training/2025-10-30-training-version-control-jmu.html",
       "/training/2025-10-09-training-version-control-mpib.html",
       "/research/wittkuhn2025pnas.html",
       "/research/hall-mcmaster2025b.html",
