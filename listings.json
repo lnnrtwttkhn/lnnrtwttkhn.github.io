@@ -2,6 +2,7 @@
   {
     "listing": "/news/index.html",
     "items": [
+      "/research/kern2026e.html",
       "/research/hall-mcmaster2026jn.html",
       "/grants/2025-11-12-grant-dfg-castellum.html",
       "/training/2025-10-30-training-version-control-jmu.html",
@@ -106,78 +107,44 @@
     ]
   },
   {
-    "listing": "/research/index.html",
+    "listing": "/docs/index.html",
     "items": [
-      "/research/hall-mcmaster2026jn.html",
-      "/research/wittkuhn2025pnas.html",
-      "/research/kern2025b.html",
-      "/research/wittkuhn2021nbr.html",
-      "/research/wittkuhn2021nc.html",
-      "/research/wittkuhn2018n.html"
+      "/docs/resources/uhh-object-storage.html"
     ]
   },
   {
-    "listing": "/training/2025-01-15-training-version-control-zi-mannheim.html",
+    "listing": "/training/2025-03-31-training-version-control-mpib.html",
     "items": []
   },
   {
-    "listing": "/training/2024-09-27-training-version-control-uhh.html",
+    "listing": "/training/2025-07-08-training-version-control-audictive.html",
     "items": []
   },
   {
-    "listing": "/training/2024-06-21-training-version-control-mpib.html",
-    "items": []
-  },
-  {
-    "listing": "/portfolio/portfolio-quarto.html",
+    "listing": "/portfolio/portfolio-datalad.html",
     "items": [
-      "/training/2023-12-01-training-quarto-uhh.html"
-    ]
-  },
-  {
-    "listing": "/portfolio/portfolio-git.html",
-    "items": [
-      "/training/2024-04-06-training-version-control-uhh.html",
-      "/talks/2023-05-11-talk-ddlitlab-quest.html"
-    ]
-  },
-  {
-    "listing": "/consulting.html",
-    "items": [
-      "/portfolio/portfolio-bids.html",
-      "/portfolio/portfolio-datalad.html",
-      "/portfolio/portfolio-docker.html",
-      "/portfolio/portfolio-git.html",
-      "/portfolio/portfolio-oer.html",
-      "/portfolio/portfolio-quarto.html",
-      "/training/2025-10-30-training-version-control-jmu.html",
-      "/training/2025-10-09-training-version-control-mpib.html",
-      "/training/2025-07-08-training-version-control-audictive.html",
-      "/training/2025-03-31-training-version-control-mpib.html",
-      "/training/2025-01-31-training-version-control-uhh.html",
-      "/training/2025-01-15-training-version-control-zi-mannheim.html",
-      "/training/2024-09-27-training-version-control-uhh.html",
-      "/training/2024-06-21-training-version-control-mpib.html",
-      "/training/2024-04-06-training-version-control-uhh.html",
-      "/training/2023-12-01-training-quarto-uhh.html",
-      "/training/2023-10-20-training-version-control-uhh.html",
-      "/training/2020-11-18-training-datalad-mpib.html",
-      "/talks/2025-02-26-talk-uma-rdm-2025.html",
-      "/talks/2024-11-28-talk-uhh-rdm-2024.html",
-      "/talks/2024-11-14-talk-ddlitlab-interview.html",
-      "/talks/2024-11-05-talk-castellum-uhh-mpib.html",
-      "/talks/2024-05-31-talk-ddlitlab-pug.html",
-      "/talks/2024-05-30-talk-wittkuhn2024b-pug.html",
       "/talks/2024-03-20-talk-mps-rdm-2024.html",
-      "/talks/2024-03-06-talk-ddlitlab.html",
-      "/talks/2023-10-10-talk-digital-total.html",
-      "/talks/2023-09-25-talk-castellum-uhh-mpib.html",
-      "/talks/2023-08-29-talk-dra-fair-teaching.html",
-      "/talks/2023-05-11-talk-ddlitlab-quest.html",
-      "/talks/2019-07-12-talk-fmriprep-doeller.html",
-      "/experience/role-uhh-castellum.html",
-      "/experience/role-mpib-irb.html",
-      "/experience/role-mpib-rdm.html"
+      "/training/2020-11-18-training-datalad-mpib.html"
+    ]
+  },
+  {
+    "listing": "/portfolio/portfolio-oer.html",
+    "items": [
+      "/talks/2023-08-29-talk-dra-fair-teaching.html"
+    ]
+  },
+  {
+    "listing": "/portfolio/portfolio-bids.html",
+    "items": [
+      "/talks/2019-07-12-talk-fmriprep-doeller.html"
+    ]
+  },
+  {
+    "listing": "/education/index.html",
+    "items": [
+      "/education/edu-tud-bsc-psych.html",
+      "/education/edu-tud-msc-can.html",
+      "/education/edu-fub-phd-psych.html"
     ]
   },
   {
@@ -189,6 +156,7 @@
       "/education/edu-fub-phd-psych.html",
       "/education/edu-tud-msc-can.html",
       "/education/edu-tud-bsc-psych.html",
+      "/research/kern2026e.html",
       "/research/hall-mcmaster2026jn.html",
       "/grants/2025-11-12-grant-dfg-castellum.html",
       "/training/2025-10-30-training-version-control-jmu.html",
@@ -232,44 +200,78 @@
     ]
   },
   {
-    "listing": "/education/index.html",
+    "listing": "/consulting.html",
     "items": [
-      "/education/edu-tud-bsc-psych.html",
-      "/education/edu-tud-msc-can.html",
-      "/education/edu-fub-phd-psych.html"
-    ]
-  },
-  {
-    "listing": "/portfolio/portfolio-bids.html",
-    "items": [
-      "/talks/2019-07-12-talk-fmriprep-doeller.html"
-    ]
-  },
-  {
-    "listing": "/portfolio/portfolio-oer.html",
-    "items": [
-      "/talks/2023-08-29-talk-dra-fair-teaching.html"
-    ]
-  },
-  {
-    "listing": "/portfolio/portfolio-datalad.html",
-    "items": [
+      "/portfolio/portfolio-bids.html",
+      "/portfolio/portfolio-datalad.html",
+      "/portfolio/portfolio-docker.html",
+      "/portfolio/portfolio-git.html",
+      "/portfolio/portfolio-oer.html",
+      "/portfolio/portfolio-quarto.html",
+      "/training/2025-10-30-training-version-control-jmu.html",
+      "/training/2025-10-09-training-version-control-mpib.html",
+      "/training/2025-07-08-training-version-control-audictive.html",
+      "/training/2025-03-31-training-version-control-mpib.html",
+      "/training/2025-01-31-training-version-control-uhh.html",
+      "/training/2025-01-15-training-version-control-zi-mannheim.html",
+      "/training/2024-09-27-training-version-control-uhh.html",
+      "/training/2024-06-21-training-version-control-mpib.html",
+      "/training/2024-04-06-training-version-control-uhh.html",
+      "/training/2023-12-01-training-quarto-uhh.html",
+      "/training/2023-10-20-training-version-control-uhh.html",
+      "/training/2020-11-18-training-datalad-mpib.html",
+      "/talks/2025-02-26-talk-uma-rdm-2025.html",
+      "/talks/2024-11-28-talk-uhh-rdm-2024.html",
+      "/talks/2024-11-14-talk-ddlitlab-interview.html",
+      "/talks/2024-11-05-talk-castellum-uhh-mpib.html",
+      "/talks/2024-05-31-talk-ddlitlab-pug.html",
+      "/talks/2024-05-30-talk-wittkuhn2024b-pug.html",
       "/talks/2024-03-20-talk-mps-rdm-2024.html",
-      "/training/2020-11-18-training-datalad-mpib.html"
+      "/talks/2024-03-06-talk-ddlitlab.html",
+      "/talks/2023-10-10-talk-digital-total.html",
+      "/talks/2023-09-25-talk-castellum-uhh-mpib.html",
+      "/talks/2023-08-29-talk-dra-fair-teaching.html",
+      "/talks/2023-05-11-talk-ddlitlab-quest.html",
+      "/talks/2019-07-12-talk-fmriprep-doeller.html",
+      "/experience/role-uhh-castellum.html",
+      "/experience/role-mpib-irb.html",
+      "/experience/role-mpib-rdm.html"
     ]
   },
   {
-    "listing": "/training/2025-07-08-training-version-control-audictive.html",
-    "items": []
-  },
-  {
-    "listing": "/training/2025-03-31-training-version-control-mpib.html",
-    "items": []
-  },
-  {
-    "listing": "/docs/index.html",
+    "listing": "/portfolio/portfolio-git.html",
     "items": [
-      "/docs/resources/uhh-object-storage.html"
+      "/training/2024-04-06-training-version-control-uhh.html",
+      "/talks/2023-05-11-talk-ddlitlab-quest.html"
+    ]
+  },
+  {
+    "listing": "/portfolio/portfolio-quarto.html",
+    "items": [
+      "/training/2023-12-01-training-quarto-uhh.html"
+    ]
+  },
+  {
+    "listing": "/training/2024-06-21-training-version-control-mpib.html",
+    "items": []
+  },
+  {
+    "listing": "/training/2024-09-27-training-version-control-uhh.html",
+    "items": []
+  },
+  {
+    "listing": "/training/2025-01-15-training-version-control-zi-mannheim.html",
+    "items": []
+  },
+  {
+    "listing": "/research/index.html",
+    "items": [
+      "/research/kern2026e.html",
+      "/research/hall-mcmaster2026jn.html",
+      "/research/wittkuhn2025pnas.html",
+      "/research/wittkuhn2021nbr.html",
+      "/research/wittkuhn2021nc.html",
+      "/research/wittkuhn2018n.html"
     ]
   },
   {
