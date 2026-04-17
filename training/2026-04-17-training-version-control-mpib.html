@@ -7,8 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Dr.&nbsp;Lennart Wittkuhn">
+<meta name="dcterms.date" content="2026-04-17">
+<meta name="description" content=" 6 hrs  Local  8 participants">
 
-<title>Dr.&nbsp;Lennart Wittkuhn | Docs – Dr. Lennart Wittkuhn</title>
+<title>Dr.&nbsp;Lennart Wittkuhn | Track, organize and share your work: An introduction to Git for research – Dr. Lennart Wittkuhn</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,12 +33,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../static/photo-wittkuhn-uhh-square.jpg" rel="icon" type="image/jpeg">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-dece3bd051e391dd7205a6b15f93dc59.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -70,86 +69,18 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-resources .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-categories','listing-file-modified',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-resources'] = new List('listing-resources', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
-  <script>document.addEventListener("DOMContentLoaded", function () {
- var mathElements = document.getElementsByClassName("math");
- var macros = [];
- for (var i = 0; i < mathElements.length; i++) {
-  var texText = mathElements[i].firstChild;
-  if (mathElements[i].tagName == "SPAN") {
-   katex.render(texText.data, mathElements[i], {
-    displayMode: mathElements[i].classList.contains('display'),
-    throwOnError: false,
-    macros: macros,
-    fleqn: false
-   });
-}}});
-  </script>
-  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="alternate" type="application/rss+xml" title="Dr. Lennart Wittkuhn" href="index.xml" data-external="1"><meta property="og:title" content="Dr.&nbsp;Lennart Wittkuhn | Docs">
+<meta property="og:title" content="Dr.&nbsp;Lennart Wittkuhn | Track, organize and share your work: An introduction to Git for research">
+<meta property="og:description" content=" 6 hrs  Local  8 participants">
+<meta property="og:image" content="https://lennartwittkuhn.com/static/git-logo.svg">
 <meta property="og:site_name" content="Dr. Lennart Wittkuhn">
-<meta name="twitter:title" content="Dr.&nbsp;Lennart Wittkuhn | Docs">
+<meta name="twitter:title" content="Dr.&nbsp;Lennart Wittkuhn | Track, organize and share your work: An introduction to Git for research">
+<meta name="twitter:description" content=" 6 hrs  Local  8 participants">
+<meta name="twitter:image" content="https://lennartwittkuhn.com/static/git-logo.svg">
 <meta name="twitter:creator" content="@lnnrtwttkhn">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed">
@@ -200,85 +131,79 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGF0YUxhZA==">DataLad <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T2JqZWN0JTIwU3RvcmFnZQ==">Object Storage <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVzZWFyY2glMjBEYXRhJTIwTWFuYWdlbWVudA==">Research Data Management <span class="quarto-category-count">(1)</span></div></div></div>
-<!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Docs</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="resources" class="level2">
-<h2 class="anchored" data-anchor-id="resources">Resources</h2>
-<div id="listing-resources" class="quarto-listing quarto-listing-container-default">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-resources-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-resources'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-file-modified-sort" data-direction="asc">
-          Modified - Oldest
-        </option>
-         <option value="listing-file-modified-sort" data-direction="desc">
-          Modified - Newest
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#website" id="toc-website" class="nav-link active" data-scroll-target="#website">Website</a></li>
+  <li><a href="#feedback" id="toc-feedback" class="nav-link" data-scroll-target="#feedback">Feedback</a></li>
+  </ul>
+</nav>
     </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+
+
+
+<div class="quarto-about-solana column-body">
+  <div class="about-entity">
+    <div class="entity-contents">
+      <header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Track, organize and share your work: An introduction to Git for research</h1>
+<p class="subtitle lead">Max Planck Institute for Human Development</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Version Control</div>
+    <div class="quarto-category">Git</div>
+    <div class="quarto-category">Reproducibility</div>
+    <div class="quarto-category">Open Science</div>
+    <div class="quarto-category">Teaching</div>
+    <div class="quarto-category">Course</div>
+  </div>
+  </div>
+<div>
+  <div class="description">
+    <p><i class="fa-solid fa-clock" aria-label="clock"></i> 6 hrs <i class="fa-solid fa-chalkboard-user" aria-label="chalkboard-user"></i> Local <i class="fa-solid fa-users-viewfinder" aria-label="users-viewfinder"></i> 8 participants</p>
+  </div>
 </div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="T2JqZWN0JTIwU3RvcmFnZSUyQ0RhdGFMYWQlMkNSZXNlYXJjaCUyMERhdGElMjBNYW5hZ2VtZW50" data-listing-file-modified-sort="1776461713000" data-listing-reading-time-sort="3" data-listing-word-count-sort="440" data-listing-title-sort="Datalad x UHH Object Storage">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../docs/resources/uhh-object-storage.html" class="no-external">Datalad x UHH Object Storage</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../docs/resources/uhh-object-storage.html" class="no-external">How to use the University of Hamburg’s Object Storage as a DataLad special remote</a>
+<div class="quarto-title-meta">
+    <div>
+    <div class="quarto-title-meta-heading">Date</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 17, 2026</p>
+    </div>
+  </div>
+  </div>
+</header> <div class="about-links">
+  <a href="https://lennartwittkuhn.com/version-control-course-mpib-2026-spring" class="about-link" rel="" target="">
+    <i class="bi bi-display"></i>
+     <span class="about-link-text">Course Website</span>
+  </a>
+  <a href="https://github.com/lnnrtwttkhn/version-control-course-mpib-2026-spring" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">Website Code</span>
+  </a>
+  <a href="https://lennartwittkuhn.com/version-control-book/" class="about-link" rel="" target="">
+    <i class="bi bi-book"></i>
+     <span class="about-link-text">Course Book</span>
+  </a>
 </div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('T2JqZWN0JTIwU3RvcmFnZQ=='); return false;">
-Object Storage
+      <div class="about-contents"><div id="hero-heading">
+</div></div>
+    </div>
+    <img src="../static/git-logo.svg" class="about-image
+  rectangle " style="width: 0em;">
+  </div>
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('RGF0YUxhZA=='); return false;">
-DataLad
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('UmVzZWFyY2glMjBEYXRhJTIwTWFuYWdlbWVudA=='); return false;">
-Research Data Management
-</div>
-</div>
-</div>
-<div class="metadata">
-<p><a href="../docs/resources/uhh-object-storage.html" class="no-external"></a></p><a href="../docs/resources/uhh-object-storage.html" class="no-external">
-<div class="metadata-value listing-file-modified">
-April 17, 2026
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
+
+<section id="website" class="level2">
+<h2 data-anchor-id="website">Website</h2>
+<iframe width="100%" height="500" src="https://lennartwittkuhn.com/version-control-course-mpib-2026-spring/" title="Website"></iframe>
+</section>
+<section id="feedback" class="level2">
+<h2 data-anchor-id="feedback">Feedback</h2>
+<p>TBA</p>
 
 
 
@@ -305,13 +230,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
