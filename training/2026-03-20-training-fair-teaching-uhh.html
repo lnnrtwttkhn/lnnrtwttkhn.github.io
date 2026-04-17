@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Dr.&nbsp;Lennart Wittkuhn">
-<meta name="description" content="October 2022 - December 2023">
+<meta name="dcterms.date" content="2026-03-20">
 
-<title>Dr.&nbsp;Lennart Wittkuhn | Advisory board member – Dr. Lennart Wittkuhn</title>
+<title>Dr.&nbsp;Lennart Wittkuhn | FAIR &amp; Reproducible Teaching with Quarto &amp; Git – Dr. Lennart Wittkuhn</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,6 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../static/photo-wittkuhn-uhh-square.jpg" rel="icon" type="image/jpeg">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,25 +70,97 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-related-work .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-subtitle','listing-image','listing-categories','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-related-work'] = new List('listing-related-work', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
 
-<meta property="og:title" content="Dr.&nbsp;Lennart Wittkuhn | Advisory board member">
-<meta property="og:description" content="October 2022 - December 2023">
-<meta property="og:image" content="https://lennartwittkuhn.com/static/mpib-logo.png">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Dr.&nbsp;Lennart Wittkuhn | FAIR &amp; Reproducible Teaching with Quarto &amp; Git">
+<meta property="og:description" content="University of Hamburg">
+<meta property="og:image" content="https://lennartwittkuhn.com/static/rstudio-hello.png">
 <meta property="og:site_name" content="Dr. Lennart Wittkuhn">
-<meta property="og:image:height" content="462">
-<meta property="og:image:width" content="2000">
-<meta name="twitter:title" content="Dr.&nbsp;Lennart Wittkuhn | Advisory board member">
-<meta name="twitter:description" content="October 2022 - December 2023">
-<meta name="twitter:image" content="https://lennartwittkuhn.com/static/mpib-logo.png">
+<meta property="og:image:height" content="1800">
+<meta property="og:image:width" content="2880">
+<meta name="twitter:title" content="Dr.&nbsp;Lennart Wittkuhn | FAIR &amp; Reproducible Teaching with Quarto &amp; Git">
+<meta name="twitter:description" content="University of Hamburg">
+<meta name="twitter:image" content="https://lennartwittkuhn.com/static/rstudio-hello.png">
 <meta name="twitter:creator" content="@lnnrtwttkhn">
-<meta name="twitter:image-height" content="462">
-<meta name="twitter:image-width" content="2000">
+<meta name="twitter:image-height" content="1800">
+<meta name="twitter:image-width" content="2880">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -133,7 +207,17 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#website" id="toc-website" class="nav-link active" data-scroll-target="#website">Website</a></li>
+  <li><a href="#description" id="toc-description" class="nav-link" data-scroll-target="#description">Description</a></li>
+  <li><a href="#related-work" id="toc-related-work" class="nav-link" data-scroll-target="#related-work">Related work</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content page-columns page-full" id="quarto-document-content">
 
@@ -145,44 +229,166 @@ ul.task-list li input[type="checkbox"] {
     <div class="entity-contents">
       <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Advisory board member</h1>
-<p class="subtitle lead">Working Group on Research Data Management &amp; Open Science at MPI for Human Development</p>
+<h1 class="title">FAIR &amp; Reproducible Teaching with Quarto &amp; Git</h1>
+<p class="subtitle lead">University of Hamburg</p>
   <div class="quarto-categories">
-    <div class="quarto-category">Research Data Management</div>
+    <div class="quarto-category">Version Control</div>
+    <div class="quarto-category">Quarto</div>
+    <div class="quarto-category">Git</div>
+    <div class="quarto-category">Reproducibility</div>
     <div class="quarto-category">Open Science</div>
+    <div class="quarto-category">Teaching</div>
+    <div class="quarto-category">Course</div>
   </div>
   </div>
-<div>
-  <div class="description">
-    October 2022 - December 2023
-  </div>
-</div>
 <div class="quarto-title-meta">
+    <div>
+    <div class="quarto-title-meta-heading">Date</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 20, 2026</p>
+    </div>
+  </div>
   </div>
 </header> <div class="about-links">
-  <a href="https://www.mpib-berlin.mpg.de/research-data" class="about-link" rel="" target="">
+  <a href="https://lennartwittkuhn.com/fair-teaching-course" class="about-link" rel="" target="">
     <i class="bi bi-display"></i>
-     <span class="about-link-text">Working Group RDM &amp; OS</span>
+     <span class="about-link-text">Course Website</span>
   </a>
-  <a href="https://www.mpib-berlin.mpg.de/person/93116/2549" class="about-link" rel="" target="">
-    <i class="bi bi-person-vcard"></i>
-     <span class="about-link-text">Reference: Dr.&nbsp;Maike Kleemeyer</span>
+  <a href="https://github.com/lnnrtwttkhn/fair-teaching-course/" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">Website Code</span>
   </a>
 </div>
       <div class="about-contents"><div id="hero-heading">
 </div></div>
     </div>
-    <img src="../static/mpib-logo.png" class="about-image
+    <img src="../static/rstudio-hello.png" class="about-image
   rectangle " style="width: 0em;">
   </div>
 </div>
 
-<section id="about" class="level2">
-<h2 data-anchor-id="about">About</h2>
-<p>The Research Data Management &amp; Open Science working group at the Max Planck Institute for Human Development in Berlin deals with questions of institutionalized, cross-departmental research data management. It is composed across organizational units and was established by the Board of Directors in 2018.</p>
-<p>Research data management is understood here as the process of managing research data throughout its entire life cycle, from planning, data collection, selection, analysis and storage to data editing for possible subsequent use. For this purpose, the Research Data Management &amp; Open Science working group, together with the institute’s employees, develops a strategy and concrete solutions and accompanies their sustainable implementation and further development.</p>
-<p>With respect to Open Science, the working group deals in particular with the possibilities and limits of making research data accessible to third parties. Its aim is to support the implementation of such practices in day-to-day research by organizing hands-on workshops.</p>
-<p>The members of the working group come from different fields (IT, Library and Research Information, Research Departments).</p>
+<section id="website" class="level2">
+<h2 data-anchor-id="website">Website</h2>
+<iframe width="100%" height="500" src="https://lennartwittkuhn.com/fair-teaching-course" title="Website"></iframe>
+</section>
+<section id="description" class="level2">
+<h2 data-anchor-id="description">Description</h2>
+<p>Teaching activities occupy a significant portion of researchers’ working time. Substantial effort and expertise go into developing teaching materials. However, these valuable learning resources are rarely created in ways that support reproducible reuse and collaborative extension, as promoted by the principles of open and FAIR science.</p>
+<p>In this one-day workshop, lecturers at the University of Hamburg are invited to learn how to develop open educational resources (OER) — such as presentations and websites — using the version control system Git and the technical publishing framework Quarto. By combining these tools, educators can produce high-quality, reproducible teaching materials that are collaboratively developed in a FAIR and transparent manner.</p>
+<p>Further details can be found in the project proposal: <a href="https://lennartwittkuhn.com/fair-teaching-proposal/" class="uri">https://lennartwittkuhn.com/fair-teaching-proposal/</a>.</p>
+</section>
+<section id="related-work" class="level2">
+<h2 data-anchor-id="related-work">Related work</h2>
+<div id="listing-related-work" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-left" data-index="0" data-categories="RkFJUiUyQ1JlcHJvZHVjaWJpbGl0eSUyQ1ZlcnNpb24lMjBDb250cm9sJTJDR2l0JTJDUXVhcnRvJTJDVGVhY2hpbmclMkNPRVIlMkNHcmFudA==" data-listing-date-sort="1716422400000" data-listing-file-modified-sort="1776463214000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="166" data-listing-title-sort="Claussen-Simon Fund for Science &amp; Higher Education 2024">
+<div class="thumbnail">
+<p><a href="../grants/2024-05-23-grant-claussen-simon-stiftung.html" class="no-external"></a></p><a href="../grants/2024-05-23-grant-claussen-simon-stiftung.html" class="no-external">
+<p class="card-img-top"><img src="../static/dra-logo-long.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../grants/2024-05-23-grant-claussen-simon-stiftung.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../grants/2024-05-23-grant-claussen-simon-stiftung.html" class="no-external">Claussen-Simon Fund for Science &amp; Higher Education 2024</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../grants/2024-05-23-grant-claussen-simon-stiftung.html" class="no-external">Grant for a project on “Implementing FAIR and reproducible teaching” at Universität Hamburg </a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RkFJUg=='); return false;">
+FAIR
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UmVwcm9kdWNpYmlsaXR5'); return false;">
+Reproducibility
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('VmVyc2lvbiUyMENvbnRyb2w='); return false;">
+Version Control
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R2l0'); return false;">
+Git
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UXVhcnRv'); return false;">
+Quarto
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('VGVhY2hpbmc='); return false;">
+Teaching
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('T0VS'); return false;">
+OER
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R3JhbnQ='); return false;">
+Grant
+</div>
+</div>
+<div class="listing-description">
+<a href="../grants/2024-05-23-grant-claussen-simon-stiftung.html" class="no-external"><i class="fa-solid fa-money-bill-1-wave" aria-label="money-bill-1-wave"></i> 10,000 € <i class="fa-solid fa-calendar-days" aria-label="calendar-days"></i> June 2024 to September 2025 </a>
+</div>
+</div>
+<div class="metadata">
+<a href="../grants/2024-05-23-grant-claussen-simon-stiftung.html" class="no-external">
+<div class="listing-date">
+May 23, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="1" data-categories="RkFJUiUyQ09wZW4lMjBFZHVjYXRpb25hbCUyMFJlc291cmNlcyUyQ1JlcHJvZHVjaWJpbGl0eSUyQ0RpZ2l0YWwlMjBSZXNlYXJjaCUyMEFjYWRlbXklMkNPcGVuJTIwU2NpZW5jZSUyQ1F1YXJ0byUyQ0dpdCUyQ1RhbGs=" data-listing-date-sort="1693267200000" data-listing-file-modified-sort="1776463214000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6" data-listing-title-sort="Reproducible &amp; FAIR Teaching Materials">
+<div class="thumbnail">
+<p><a href="../talks/2023-08-29-talk-dra-fair-teaching.html" class="no-external"></a></p><a href="../talks/2023-08-29-talk-dra-fair-teaching.html" class="no-external">
+<p><img loading="lazy" src="../static/dra-logo-long.png" class="thumbnail-image"></p>
+</a><p><a href="../talks/2023-08-29-talk-dra-fair-teaching.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../talks/2023-08-29-talk-dra-fair-teaching.html" class="no-external">Reproducible &amp; FAIR Teaching Materials</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../talks/2023-08-29-talk-dra-fair-teaching.html" class="no-external">Digital Research Academy train-the-trainer program</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RkFJUg=='); return false;">
+FAIR
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('T3BlbiUyMEVkdWNhdGlvbmFsJTIwUmVzb3VyY2Vz'); return false;">
+Open Educational Resources
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UmVwcm9kdWNpYmlsaXR5'); return false;">
+Reproducibility
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RGlnaXRhbCUyMFJlc2VhcmNoJTIwQWNhZGVteQ=='); return false;">
+Digital Research Academy
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('T3BlbiUyMFNjaWVuY2U='); return false;">
+Open Science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UXVhcnRv'); return false;">
+Quarto
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R2l0'); return false;">
+Git
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('VGFsaw=='); return false;">
+Talk
+</div>
+</div>
+<div class="listing-description">
+<a href="../talks/2023-08-29-talk-dra-fair-teaching.html" class="no-external"><i class="fa-solid fa-clock" aria-label="clock"></i> 45 min <i class="fa-solid fa-chalkboard-user" aria-label="chalkboard-user"></i> Remote <i class="fa-solid fa-users-viewfinder" aria-label="users-viewfinder"></i> ~ 15 attendees </a>
+</div>
+</div>
+<div class="metadata">
+<a href="../talks/2023-08-29-talk-dra-fair-teaching.html" class="no-external">
+<div class="listing-date">
+August 29, 2023
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+
 
 
 
