@@ -8,6 +8,21 @@
     "items": []
   },
   {
+    "listing": "/training/2024-06-21-training-version-control-mpib.html",
+    "items": []
+  },
+  {
+    "listing": "/training/2026-03-20-training-fair-teaching-uhh.html",
+    "items": [
+      "/grants/2024-05-23-grant-claussen-simon-stiftung.html",
+      "/talks/2023-08-29-talk-dra-fair-teaching.html"
+    ]
+  },
+  {
+    "listing": "/training/2025-07-08-training-version-control-audictive.html",
+    "items": []
+  },
+  {
     "listing": "/training/2024-09-27-training-version-control-uhh.html",
     "items": []
   },
@@ -31,10 +46,12 @@
       "/education/edu-fub-phd-psych.html",
       "/education/edu-tud-msc-can.html",
       "/education/edu-tud-bsc-psych.html",
+      "/training/2026-05-07-training-rdm-jmu.html",
       "/training/2026-04-17-training-version-control-mpib.html",
       "/research/kern2026e.html",
       "/training/2026-03-20-training-fair-teaching-uhh.html",
       "/research/hall-mcmaster2026jn.html",
+      "/training/2026-02-05-training-rdm-uhh.html",
       "/grants/2025-11-12-grant-dfg-castellum.html",
       "/training/2025-10-30-training-version-control-jmu.html",
       "/training/2025-10-09-training-version-control-mpib.html",
@@ -109,10 +126,12 @@
   {
     "listing": "/news/index.html",
     "items": [
+      "/training/2026-05-07-training-rdm-jmu.html",
       "/training/2026-04-17-training-version-control-mpib.html",
       "/research/kern2026e.html",
       "/training/2026-03-20-training-fair-teaching-uhh.html",
       "/research/hall-mcmaster2026jn.html",
+      "/training/2026-02-05-training-rdm-uhh.html",
       "/grants/2025-11-12-grant-dfg-castellum.html",
       "/training/2025-10-30-training-version-control-jmu.html",
       "/training/2025-10-09-training-version-control-mpib.html",
@@ -244,8 +263,10 @@
       "/portfolio/portfolio-git.html",
       "/portfolio/portfolio-oer.html",
       "/portfolio/portfolio-quarto.html",
+      "/training/2026-05-07-training-rdm-jmu.html",
       "/training/2026-04-17-training-version-control-mpib.html",
       "/training/2026-03-20-training-fair-teaching-uhh.html",
+      "/training/2026-02-05-training-rdm-uhh.html",
       "/training/2025-10-30-training-version-control-jmu.html",
       "/training/2025-10-09-training-version-control-mpib.html",
       "/training/2025-07-08-training-version-control-audictive.html",
@@ -301,21 +322,6 @@
     "items": [
       "/talks/2023-08-29-talk-dra-fair-teaching.html"
     ]
-  },
-  {
-    "listing": "/training/2025-07-08-training-version-control-audictive.html",
-    "items": []
-  },
-  {
-    "listing": "/training/2026-03-20-training-fair-teaching-uhh.html",
-    "items": [
-      "/grants/2024-05-23-grant-claussen-simon-stiftung.html",
-      "/talks/2023-08-29-talk-dra-fair-teaching.html"
-    ]
-  },
-  {
-    "listing": "/training/2024-06-21-training-version-control-mpib.html",
-    "items": []
   },
   {
     "listing": "/training/2025-03-31-training-version-control-mpib.html",
