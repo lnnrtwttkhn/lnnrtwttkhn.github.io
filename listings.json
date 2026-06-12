@@ -81,6 +81,7 @@
   {
     "listing": "/news/index.html",
     "items": [
+      "/research/kern2026b.html",
       "/training/2026-05-07-training-rdm-jmu.html",
       "/training/2026-04-17-training-version-control-mpib.html",
       "/research/kern2026e.html",
@@ -94,7 +95,6 @@
       "/research/hall-mcmaster2025b.html",
       "/training/2025-07-08-training-version-control-audictive.html",
       "/research/kern2025b.html",
-      "/research/kern2026b.html",
       "/training/2025-03-31-training-version-control-mpib.html",
       "/talks/2025-02-26-talk-uma-rdm-2025.html",
       "/grants/2025-02-21-teaching-award-psychology.html",
@@ -281,6 +281,7 @@
       "/education/edu-fub-phd-psych.html",
       "/education/edu-tud-msc-can.html",
       "/education/edu-tud-bsc-psych.html",
+      "/research/kern2026b.html",
       "/training/2026-05-07-training-rdm-jmu.html",
       "/training/2026-04-17-training-version-control-mpib.html",
       "/research/kern2026e.html",
@@ -294,7 +295,6 @@
       "/research/hall-mcmaster2025b.html",
       "/training/2025-07-08-training-version-control-audictive.html",
       "/research/kern2025b.html",
-      "/research/kern2026b.html",
       "/training/2025-03-31-training-version-control-mpib.html",
       "/talks/2025-02-26-talk-uma-rdm-2025.html",
       "/grants/2025-02-21-teaching-award-psychology.html",
